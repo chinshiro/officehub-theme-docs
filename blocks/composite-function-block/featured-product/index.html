@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-blocks/composite-function-block/featured-product" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Featured Product | TaboQ Theme Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.taboq.com/blocks/composite-function-block/featured-product"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Featured Product | TaboQ Theme Documentation"><meta data-rh="true" name="description" content="The Featured Product block displays a single product with full detail—including media gallery, title, price, variant picker, and buy buttons—allowing customers to purchase directly from any page."><meta data-rh="true" property="og:description" content="The Featured Product block displays a single product with full detail—including media gallery, title, price, variant picker, and buy buttons—allowing customers to purchase directly from any page."><link data-rh="true" rel="canonical" href="https://docs.taboq.com/blocks/composite-function-block/featured-product"><link data-rh="true" rel="alternate" href="https://docs.taboq.com/blocks/composite-function-block/featured-product" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.taboq.com/blocks/composite-function-block/featured-product" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Featured Product","item":"https://docs.taboq.com/blocks/composite-function-block/featured-product"}]}</script><link rel="stylesheet" href="/assets/css/styles.e16f76c7.css">
+<script src="/assets/js/runtime~main.50c518b6.js" defer="defer"></script>
+<script src="/assets/js/main.c4845427.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">TaboQ Theme</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/getting-started/overview">Documentation</a><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/contacting-support">Support</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/getting-started/overview">Getting Started</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/overview">Overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/support-policy">Support Policy</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/browser-support">Browser Support</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/accessibility">Accessibility (ADA, a11y)</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/theme-licensing-and-transfers">Theme License and Transfer</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/theme-changelog">Theme Changelog</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/theme-basics/editing-your-theme">Theme Basics</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/theme-settings/basic-settings">Theme Settings</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/header-group/announcement-bar">Header Group</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/sections/featured-collection">Sections</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/footer-group/store-messages">Footer Group</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/overlay-group/cart-sidebar">Overlay Group</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/blocks/overview">Blocks</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/overview">Overview</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/blocks/basic-block/heading">Basic Block</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/blocks/specific-page-block/article-body-text">Specific Page Block</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/blocks/subblocks/blog-posts-cards">Subblocks of Specific Block</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/blocks/composite-function-block/3d-model-with-text">Composite Function Block</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/3d-model-with-text">3D Model With Text</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/blog-posts">Blog Posts</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/carousel">Carousel</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/columns-layout">Columns Layout</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/contact-form">Contact Form</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/contact-us">Contact Us</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/countdown-timer">Countdown Timer</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/custom-liquid-block">Custom Liquid Block</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/faq-collapsible-tabs">Faq Collapsible Tabs</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/featured-collection">Featured Collection</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/blocks/composite-function-block/featured-product">Featured Product</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/featured-products">Featured Products</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/hotspots">Hotspots</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/image-with-text">Image With Text</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/key-features">Key Features</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/map-main-store">Map Main Store</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/multi-column">Multi Column</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/newsletter">Newsletter</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/rich-text">Rich Text</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/scrolling-banner">Scrolling Banner</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/slideshow">Slideshow</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/store-messages">Store Messages</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/testimonials">Testimonials</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/timelines">Timelines</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/blocks/composite-function-block/video-with-text">Video With Text</a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/templates-settings/products">Templates Settings</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/advanced-guides/understanding-pagespeed-score">Advanced Guides</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/contacting-support">Contacting Support</a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Blocks</span></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Composite Function Block</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Featured Product</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Featured Product</h1></header><p>The <strong>Featured Product</strong> block displays a single product with full detail—including media gallery, title, price, variant picker, and buy buttons—allowing customers to purchase directly from any page.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="settings">Settings<a href="#settings" class="hash-link" aria-label="Direct link to Settings" title="Direct link to Settings">​</a></h2>
+<ul>
+<li><strong>Enable full width</strong>: Expand the block to 100% of the viewport width.</li>
+<li><strong>Block class</strong>: Custom CSS class for spacing or layout overrides.</li>
+<li><strong>Background</strong>: Set a solid or gradient background color.</li>
+<li><strong>Or, use image</strong>: Apply a background image using a preset from <strong><a href="/theme-settings/style-scheme-settings#%EF%B8%8F-2-background-image-schema">Theme Settings → Style scheme settings → Background Image Schema</a></strong>.<!-- -->
+<blockquote>
+<p>All four settings above follow: <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></p>
+</blockquote>
+</li>
+</ul>
+<p><strong>Product</strong></p>
+<ul>
+<li><strong>Product</strong>: Select a specific product to feature.</li>
+<li><strong>Gallery width</strong>: Width of the media gallery container (e.g., <code>50%</code>, <code>60%</code>).</li>
+<li><strong>Show description below gallery</strong>: Display the product’s full description beneath the media.</li>
+<li><strong>Enable sticky on scroll</strong>: Keep the product info panel fixed while scrolling (ideal for long descriptions).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="child-blocks">Child Blocks<a href="#child-blocks" class="hash-link" aria-label="Direct link to Child Blocks" title="Direct link to Child Blocks">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="product-gallery">Product Gallery<a href="#product-gallery" class="hash-link" aria-label="Direct link to Product Gallery" title="Direct link to Product Gallery">​</a></h3>
+<p>Interactive media gallery powered by Swiper, supporting <strong>images, videos, and 3D models</strong>.</p>
+<p><strong>Layout</strong>: Gallery layout style:</p>
+<ul>
+<li><code>Carousel - thumbnails top</code>: Main media in a carousel with thumbnail navigation above</li>
+<li><code>Carousel - thumbnails bottom</code>: Thumbnails below the main media</li>
+<li><code>Carousel - thumbnails left</code>: Thumbnails to the left of the main media</li>
+<li><code>Carousel - thumbnails right</code>: Thumbnails to the right of the main media</li>
+<li><code>One column</code>: All media displayed in a single vertical column</li>
+<li><code>Two column</code>: Media arranged in two vertical columns</li>
+</ul>
+<p><strong>Media ratio</strong>: Aspect ratio applied to all media (images, videos, and 3D models)—e.g., <code>16:9</code>, <code>1:1</code>, <code>3:4</code>, <code>21:9</code>, etc.</p>
+<ul>
+<li>Auto</li>
+<li>Custom (3:1)</li>
+<li>Ultrawide (21:9)</li>
+<li>Double-width (2:1)</li>
+<li>Widescreen / HD (16:9)</li>
+<li>Classic / DSLR (3:2)</li>
+<li>ISO Paper (1.4:1)</li>
+<li>Standard Definition/SD (4:3)</li>
+<li>Landscape (5:4)</li>
+<li>Square (1:1)</li>
+<li>Instagram Portrait (4:5)</li>
+<li>Portrait (3:4)</li>
+<li>Pinterest Pin (2:3)</li>
+<li>Portrait (9:16)</li>
+</ul>
+<p><strong>Carousel Slide</strong></p>
+<ul>
+<li><strong>Slide effect</strong>: <code>slide</code>, <code>fade</code>, <code>cube</code>, <code>overflow</code>, <code>flip</code>, <code>cards</code>, <code>creative</code></li>
+<li><strong>Autoplay delay</strong>: Seconds between slides (<code>0</code> = disabled)</li>
+<li><strong>Enable image zoom</strong>: Allow click-to-zoom on images</li>
+<li><strong>Zoom max ratio</strong>: Zoom level (2x–10x)</li>
+<li><strong>Enable mousewheel control</strong>: Navigate slides via scroll wheel</li>
+<li><strong>Show prev/next button on main gallery</strong>: Toggle navigation arrows on main image</li>
+<li><strong>Main gallery prev/next button size</strong>: Button size as percentage</li>
+</ul>
+<p><strong>Thumbnails</strong></p>
+<ul>
+<li><strong>Show prev/next button</strong>: Navigation for thumbnail pagination</li>
+<li><strong>Prev/next button size</strong>: Thumbnail nav button size (%)</li>
+<li><strong>Image width</strong>: Fixed thumbnail width (in <code>px</code>)</li>
+<li><strong>Crop image to ratio</strong>: Enable cropping</li>
+<li><strong>Image ratio</strong>: Thumbnail aspect ratio<!-- -->
+<ul>
+<li>Custom (3:1)</li>
+<li>Ultrawide (21:9)</li>
+<li>Double-width (2:1)</li>
+<li>Widescreen / HD (16:9)</li>
+<li>Classic / DSLR (3:2)</li>
+<li>ISO Paper (1.4:1)</li>
+<li>Standard Definition/SD (4:3)</li>
+<li>Landscape (5:4)</li>
+<li>Square (1:1)</li>
+<li>Instagram Portrait (4:5)</li>
+<li>Portrait (3:4)</li>
+<li>Pinterest Pin (2:3)</li>
+<li>Portrait (9:16)</li>
+</ul>
+</li>
+<li><strong>Image alignment</strong>: Cropping focus (<code>Top left</code>,<code>Top center</code>,<code>Top right</code>,<code>Middle left</code>,<code>Middle center</code>,<code>Middle right</code>,<code>Bottom left</code>,<code>Bottom center</code>,<code>Bottom right</code>)</li>
+<li><strong>Border color (inactive)</strong>: Default thumbnail border</li>
+<li><strong>Border color (active)</strong>: Border for selected thumbnail</li>
+</ul>
+<p><strong>Media Images</strong></p>
+<ul>
+<li><strong>Crop image to media ratio</strong>: Enforce gallery ratio on main images</li>
+<li><strong>Image alignment</strong>: Cropping focus for main images (Top left/Top center/Top right/Middle left/Middle center/Middle right/Bottom left/Bottom center/Bottom right)</li>
+<li><strong>Show alt text over image</strong>: Overlay alt text on image</li>
+<li><strong>Alt text icon</strong>: Prepend icon to alt text</li>
+</ul>
+<p><strong>Media Videos</strong></p>
+<ul>
+<li><strong>Enable controls</strong>: Show video player UI controls</li>
+<li><strong>Enable clickToPlay</strong>: Play/pause on click</li>
+<li><strong>Enable autoplay</strong>, <strong>muted</strong>, <strong>loop</strong>: Standard video behaviors</li>
+</ul>
+<p>When <strong>Enable controls</strong> is turned on, the following video control elements become available:</p>
+<ul>
+<li><strong>Large play button</strong>: Displays a prominent play button centered over the video.</li>
+<li><strong>Show play button</strong>: Toggle visibility of the play/pause button in the control bar.</li>
+<li><strong>Show progress</strong>: Display the playback progress bar.</li>
+<li><strong>Show current time</strong>: Show the current playback time (e.g., <code>1:23</code>).</li>
+<li><strong>Show duration</strong>: Display the total video duration (e.g., <code>4:56</code>).</li>
+<li><strong>Show mute</strong>: Include a mute/unmute button.</li>
+<li><strong>Show volume</strong>: Show a volume slider for audio level adjustment.</li>
+<li><strong>Show speed settings</strong>: Allow users to change playback speed (e.g., 0.5x, 1x, 1.5x, 2x).</li>
+<li><strong>Show fullscreen</strong>: Display a button to toggle fullscreen mode.</li>
+</ul>
+<p><strong>Media Models</strong></p>
+<ul>
+<li><strong>Background</strong>: Container background color from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong></li>
+<li><strong>Automatic play</strong>: Enable embedded model animations</li>
+<li><strong>Automatic rotation</strong>: Rotate model continuously</li>
+<li><strong>Rotation speed</strong>: Degrees per frame (higher = faster)</li>
+</ul>
+<p><strong>Sales Status Label</strong></p>
+<ul>
+<li><strong>Show sale / sold out / pre-order</strong>: Toggle visibility</li>
+<li><strong>Style</strong>: Badge styling from <strong><a href="/theme-settings/style-scheme-settings#%EF%B8%8F-11-sales-status-style-schema">Theme Settings → Style scheme settings → Sales Status Style Schema</a></strong></li>
+</ul>
+<p><strong>Reduction Label</strong></p>
+<ul>
+<li><strong>Show reduction</strong>: Display discount badge</li>
+<li><strong>Type</strong>: <code>Percent</code> or <code>Value</code></li>
+<li><strong>Position</strong>: <code>Top left</code>, <code>Top right</code>, <code>Left up</code>, <code>Left down</code>, <code>Right up</code>, <code>Right down</code></li>
+<li><strong>Background</strong>: Color from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong></li>
+</ul>
+<p><strong>&#x27;New Arrival&#x27; Label</strong></p>
+<ul>
+<li><strong>Show &#x27;New arrival&#x27; label</strong>: Highlight new products</li>
+<li><strong>Position</strong>: Same as reduction label</li>
+<li><strong>Background</strong>: Color from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong></li>
+<li><strong>Method</strong>: <code>Collection</code> (handle contains “new”), <code>Tag</code> (“New” tag), or <code>Date</code></li>
+<li><strong>Date limit</strong>: Show if product created within X days</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="title">Title<a href="#title" class="hash-link" aria-label="Direct link to Title" title="Direct link to Title">​</a></h3>
+<p>Product title block (recommended as <code>&lt;h1&gt;</code> for SEO).</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Tag</strong>: <code>&lt;h1&gt;</code>–<code>&lt;h6&gt;</code> or <code>&lt;div&gt;</code></li>
+<li><strong>Size</strong>: Font size from <strong><a href="/theme-settings/basic-settings#-5-typography">Theme Settings → Basic Settings → Typography</a></strong></li>
+<li><strong>Color schema</strong>: Text color from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="price">Price<a href="#price" class="hash-link" aria-label="Direct link to Price" title="Direct link to Price">​</a></h3>
+<p>Displays current and compare-at pricing.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Show tax status and shipping policy link</strong>: Toggle visibility of links to your store’s tax and shipping policy pages (typically displayed near the price).</li>
+<li><strong>Show inventory transfer notice</strong>: Display a notice when inventory is being transferred between locations (e.g., “Stock arriving soon”).</li>
+</ul>
+<p><strong>Price</strong></p>
+<ul>
+<li><strong>Show product compare at price</strong>: Show the original/strikethrough price when a product is on sale.</li>
+<li><strong>Style</strong>: Apply a pricing style preset from <strong><a href="/theme-settings/style-scheme-settings#-8-price-style-schema">Theme Settings → Style scheme settings → Price Style Schema</a></strong>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="barcode">Barcode<a href="#barcode" class="hash-link" aria-label="Direct link to Barcode" title="Direct link to Barcode">​</a></h3>
+<p>Shows product barcode (if available).</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="buy-buttons">Buy Buttons<a href="#buy-buttons" class="hash-link" aria-label="Direct link to Buy Buttons" title="Direct link to Buy Buttons">​</a></h3>
+<p>Primary purchase controls.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Show quantity selector</strong>: Toggle visibility of the quantity input field (e.g., “1”, “2”, “3”) for adding multiple units to cart.</li>
+<li><strong>Show dynamic checkout button</strong>: Display Shopify’s accelerated checkout buttons (e.g., Shop Pay, PayPal, Apple Pay) based on the customer’s device and region.</li>
+<li><strong>Show backorder text</strong>: Show a notice (e.g., “Available for backorder”) only for products that:<!-- -->
+<ul>
+<li>Use Shopify inventory tracking</li>
+<li>Are set to “Continue selling when out of stock”</li>
+</ul>
+</li>
+<li><strong>Show pickup availability</strong>: Display local pickup availability (e.g., “Available for pickup at Downtown Store”) if Shopify POS locations are configured.</li>
+<li><strong>Show recipient information form for gift cards</strong>: Show fields to enter recipient name, email, and message when the product is a <strong>Shopify gift card</strong>.</li>
+</ul>
+<p><strong>Quantity Selector Style</strong></p>
+<ul>
+<li><strong>Size</strong>: Quantity selector size—<code>small</code>, <code>default</code>, or <code>large</code>.</li>
+<li><strong>Background</strong>: Background color of the quantity input field, selected from color variables in <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Text/border color schema</strong>: Text and border color scheme, also chosen from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+</ul>
+<p><strong>&#x27;Add to cart&#x27; Button Style</strong></p>
+<ul>
+<li><strong>Style</strong>: Button appearance—<code>button</code> (solid fill) or <code>outline</code> (hollow with border).</li>
+<li><strong>Color schema</strong>: Button color selected from the theme’s color variables in <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Size</strong>: Button size—<code>small</code>, <code>default</code>, or <code>large</code>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="collapsible-tab">Collapsible Tab<a href="#collapsible-tab" class="hash-link" aria-label="Direct link to Collapsible Tab" title="Direct link to Collapsible Tab">​</a></h3>
+<p>Expandable content section (e.g., size guide, care instructions).</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Collapsible style</strong></p>
+<ul>
+<li><strong>Border color schema</strong>: Border color selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Border radius</strong>: Corner style—<code>rounded1</code> to <code>rounded5</code>, <code>circle</code>, or <code>pill</code>.</li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Collapsible content</strong></p>
+<ul>
+<li><strong>From richtext</strong>: Enter content directly using the rich text editor.</li>
+<li><strong>Append liquid code</strong>: Inject custom Liquid/HTML/JS.</li>
+<li><strong>Append page content</strong>: Pull content from a selected Shopify page.</li>
+<li><strong>Default open</strong>: Expand the section by default (not collapsed on load).</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="complementary-products">Complementary Products<a href="#complementary-products" class="hash-link" aria-label="Direct link to Complementary Products" title="Direct link to Complementary Products">​</a></h3>
+<p>Suggest add-on items.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Product cards</strong>:</p>
+<ul>
+<li><strong>Limit</strong>: Maximum number of products to display.</li>
+<li><strong>Card style</strong>: Visual styling for product cards, selected from <strong><a href="/theme-settings/style-scheme-settings#-3-cards-style-schema">Theme Settings → Style scheme settings → Cards Style Schema</a></strong>.</li>
+<li><strong>Display method</strong>: Layout type—<code>Cards</code> (grid) or <code>Carousel</code> (sliding).</li>
+<li><strong>Crop image to ratio</strong>: Enable cropping of product images to a specific aspect ratio.</li>
+<li><strong>Image ratio</strong>: Choose the target aspect ratio (e.g., <code>1:1</code>, <code>16:9</code>, <code>3:4</code>).<!-- -->
+<ul>
+<li>Shortest image</li>
+<li>Tallest image</li>
+<li>Auto</li>
+<li>Custom (3:1)</li>
+<li>Ultrawide (21:9)</li>
+<li>Double-width (2:1)</li>
+<li>Widescreen / HD (16:9)</li>
+<li>Classic / DSLR (3:2)</li>
+<li>ISO Paper (1.4:1)</li>
+<li>Standard Definition/SD (4:3)</li>
+<li>Landscape (5:4)</li>
+<li>Square (1:1)</li>
+<li>Instagram Portrait (4:5)</li>
+<li>Portrait (3:4)</li>
+<li>Pinterest Pin (2:3)</li>
+<li>Portrait (9:16)</li>
+</ul>
+</li>
+<li><strong>Image alignment</strong>: Control which part of the image is preserved during cropping (e.g., <code>Top left</code>,<code>Top center</code>,<code>Top right</code>,<code>Middle left</code>,<code>Middle center</code>,<code>Middle right</code>,<code>Bottom left</code>,<code>Bottom center</code>,<code>Bottom right</code>).</li>
+<li><strong>Text alignment</strong>: Horizontal alignment of text within the card (<code>Left</code>, <code>Center</code>, <code>Right</code>).</li>
+<li><strong>Number per row</strong>: Number of cards displayed per row (applies when <strong>Display method = Cards</strong>).</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="countdown-timer">Countdown Timer<a href="#countdown-timer" class="hash-link" aria-label="Direct link to Countdown Timer" title="Direct link to Countdown Timer">​</a></h3>
+<p>Urgency-driven countdown for promotions.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong><br>
+<strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+<li>Full settings: <strong><a href="/blocks/basic-block/countdown-timer">Blocks → Basic Block → Countdown Timer</a></strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="custom-liquid">Custom Liquid<a href="#custom-liquid" class="hash-link" aria-label="Direct link to Custom Liquid" title="Direct link to Custom Liquid">​</a></h3>
+<p>Embed raw Liquid/HTML/JS.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong><br>
+<strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</li>
+<li><strong>Liquid code</strong>: Enter custom Liquid code</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="custom-option">Custom Option<a href="#custom-option" class="hash-link" aria-label="Direct link to Custom Option" title="Direct link to Custom Option">​</a></h3>
+<p>Collect custom product inputs (e.g., engraving).</p>
+<ul>
+<li>
+<p><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong><br>
+<strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+</li>
+<li>
+<p><strong>Custom option</strong>: Supports the following form field types:</p>
+<ul>
+<li><code>Form text</code></li>
+<li><code>Form radio</code></li>
+<li><code>Form checkbox</code></li>
+<li><code>Form select</code></li>
+<li><code>Form file</code></li>
+<li><code>Form textarea</code></li>
+</ul>
+<blockquote>
+<p>For full configuration options (label, placeholder, validation, styling, layout, etc.), refer to: <strong><a href="/blocks/composite-function-block/contact-form#block-common-settings">Blocks → Composite Function Block → Contact Form</a></strong>.</p>
+</blockquote>
+<blockquote>
+<p>⚠️ <strong>Important</strong>: When using this block inside a product context (e.g., to collect engraving text or customization details), ensure the <strong>Applies to</strong> parameter is set to <strong><code>Product</code></strong>. This ensures the input data is correctly passed to the cart and order.</p>
+</blockquote>
+</li>
+<li>
+<p><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="description">Description<a href="#description" class="hash-link" aria-label="Direct link to Description" title="Direct link to Description">​</a></h3>
+<p>Render full product description.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Show in collapsible tab</strong>: Enable collapsible (accordion-style) behavior for the content block.</li>
+<li><strong>Collapsed</strong>: Collapse the content by default on page load.</li>
+<li><strong>Show tab border</strong>: Display a visible border around the collapsible tab container.</li>
+<li><strong>Border radius</strong>: Corner roundness of the tab—options include <code>rounded1</code> to <code>rounded5</code>, <code>circle</code>, or <code>pill</code>.</li>
+<li><strong>Border color schema</strong>: Border color selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="divider">Divider<a href="#divider" class="hash-link" aria-label="Direct link to Divider" title="Direct link to Divider">​</a></h3>
+<p>Visual separator with optional title.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Divider title</strong>: Text displayed above the divider line (e.g., “Details”, “Specifications”).</li>
+<li><strong>Border color schema</strong>: Color of the divider line, selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Text color schema</strong>: Color of the divider title text, also chosen from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dynamic-source">Dynamic Source<a href="#dynamic-source" class="hash-link" aria-label="Direct link to Dynamic Source" title="Direct link to Dynamic Source">​</a></h3>
+<p>Display product metafields.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong><br>
+<strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</li>
+<li><strong>Text content from here choose -&gt;</strong>: Connect to product metafield via database icon</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feature-rating">Feature Rating<a href="#feature-rating" class="hash-link" aria-label="Direct link to Feature Rating" title="Direct link to Feature Rating">​</a></h3>
+<p>Visual skill/feature rating bars.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Segments Content</strong></p>
+<ul>
+<li><strong>Segments</strong>: Total number of segments (e.g., 5 for a 5-star rating scale).</li>
+<li><strong>Active segment</strong>: Number of filled/active segments (e.g., 4 out of 5).</li>
+<li><strong>Show number</strong>: Toggle visibility of the numeric value (e.g., “4/5”).</li>
+<li><strong>Active color schema</strong>: Color for active segments, selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Segments size</strong>: Size of each segment as a percentage of default (e.g., <code>120%</code> for larger bars).</li>
+</ul>
+<p><strong>Label Text</strong></p>
+<ul>
+<li><strong>Show labels</strong>: Display text labels on the left, middle, and/or right of the segment bar.</li>
+<li><strong>Left label</strong>: Text shown at the start (e.g., “Poor”).</li>
+<li><strong>Middle label</strong>: Text shown in the center (e.g., “Average”).</li>
+<li><strong>Right label</strong>: Text shown at the end (e.g., “Excellent”).</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="featured-image">Featured Image<a href="#featured-image" class="hash-link" aria-label="Direct link to Featured Image" title="Direct link to Featured Image">​</a></h3>
+<p>Standalone image with optional heading.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+<li><strong>Child blocks</strong>
+<ul>
+<li><strong>Heading</strong>: Title for the featured image. Configuration follows <strong><a href="/blocks/basic-block/heading">Blocks → Basic Block → Heading</a></strong>.</li>
+<li><strong>Image</strong>: Main image display. Settings follow <strong><a href="/blocks/basic-block/image">Blocks → Basic Block → Image</a></strong>.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="featured-links">Featured Links<a href="#featured-links" class="hash-link" aria-label="Direct link to Featured Links" title="Direct link to Featured Links">​</a></h3>
+<p>Promotional or informational links.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Links Source</strong></p>
+<ul>
+<li><strong>Link url</strong>: Enter or select the destination URL for a single link.</li>
+<li><strong>Link text</strong>: The visible label or text of the link (e.g., “Learn More”).</li>
+<li><strong>Or, from menu</strong>: Alternatively, select a Shopify menu (from <strong>Content &gt; Menus</strong>) to automatically display multiple links.</li>
+<li><strong>Link target</strong>: Specify how the link opens:<!-- -->
+<ul>
+<li><code>_blank</code> – New tab/window</li>
+<li><code>_self</code> – Same tab (default)</li>
+<li><code>_parent</code> – Parent frame</li>
+<li><code>_top</code> – Top-level browsing context</li>
+</ul>
+</li>
+</ul>
+<p><strong>Links Style</strong></p>
+<ul>
+<li>
+<p><strong>Style</strong>: Visual appearance—<code>button</code>, <code>outline</code>, or <code>link</code>.</p>
+</li>
+<li>
+<p><strong>Color schema</strong>: Text/button color selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</p>
+</li>
+<li>
+<p><strong>Size</strong>: Button size (<code>small</code>, <code>default</code>, <code>large</code>)—only applies when <strong>Style</strong> is <code>button</code> or <code>outline</code>.</p>
+</li>
+<li>
+<p><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="inventory-level">Inventory Level<a href="#inventory-level" class="hash-link" aria-label="Direct link to Inventory Level" title="Direct link to Inventory Level">​</a></h3>
+<p>Real-time stock indicator.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Show inventory notice</strong>: Condition for displaying the inventory status message—choose <code>Low</code> (only when stock is below threshold) or <code>Always</code> (show for all stock levels).</li>
+<li><strong>Show count in inventory notice</strong>: Whether to display the actual quantity:<!-- -->
+<ul>
+<li><code>Never</code>: Hide the number</li>
+<li><code>Low</code>: Show only when stock is low</li>
+<li><code>Always</code>: Always show the count</li>
+</ul>
+</li>
+<li><strong>Low inventory threshold</strong>: The stock level below which a product is considered “low” (e.g., <code>5</code> means “Low stock” appears when ≤5 units remain).</li>
+<li><strong>Style</strong>: Visual styling for the inventory notice, selected from <strong><a href="/theme-settings/style-scheme-settings#-10-inventory-level-style-schema">Theme Settings → Style scheme settings → Inventory Level Style Schema</a></strong>.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="payment-icons">Payment Icons<a href="#payment-icons" class="hash-link" aria-label="Direct link to Payment Icons" title="Direct link to Payment Icons">​</a></h3>
+<p>Display accepted payment methods.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong><br>
+<strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</li>
+<li><strong>Payment icons</strong>: Settings from <strong><a href="/blocks/basic-block/payment-icons">Blocks → Basic Block → Payment Icons</a></strong></li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pop-up-modal">Pop-up (Modal)<a href="#pop-up-modal" class="hash-link" aria-label="Direct link to Pop-up (Modal)" title="Direct link to Pop-up (Modal)">​</a></h3>
+<p>Trigger a modal window.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Pop up Link</strong></p>
+<ul>
+<li><strong>Pop up link text</strong>: Label text for the button that triggers the modal (e.g., “View Details”,  “Size Guide”).</li>
+<li><strong>Style</strong>: Button appearance—<code>button</code> (solid), <code>outline</code> (hollow), or <code>link</code> (text-only).</li>
+<li><strong>Color schema</strong>: Button color selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Size</strong>: Button size—<code>small</code>, <code>default</code>, or <code>large</code> (only applies when <strong>Style</strong> is <code>button</code> or <code>outline</code>).</li>
+</ul>
+<p><strong>Pop up Modal</strong></p>
+<ul>
+<li><strong>Content from page</strong>: Select a Shopify page whose content will be displayed inside the modal.</li>
+<li><strong>Modal size</strong>: Choose from <code>Small</code>, <code>Default</code>, <code>Large</code>, <code>Extra large</code>, or <code>Fullscreen</code>.</li>
+<li><strong>Modal status color</strong>: Accent color for the modal’s top border or status indicator, chosen from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Modal with vertically centered</strong>: Toggle whether the modal is centered vertically in the viewport.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="related-products">Related Products<a href="#related-products" class="hash-link" aria-label="Direct link to Related Products" title="Direct link to Related Products">​</a></h3>
+<p>Cross-sell similar items.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Related Products</strong></p>
+<ul>
+<li><strong>Products</strong>: Manually select specific products to display as related items.</li>
+<li><strong>Limit</strong>: Maximum number of related products shown.</li>
+<li><strong>Show style</strong>: Choose display format—<code>Card</code> (full product card with title, price, etc.) or <code>Image</code> (image-only grid).</li>
+<li><strong>Crop image to ratio</strong>: Enable cropping of product images to a consistent aspect ratio.</li>
+<li><strong>Image ratio</strong>: Select the target ratio (e.g., <code>1:1</code>, <code>16:9</code>, <code>3:4</code>).<!-- -->
+<ul>
+<li>Shortest image</li>
+<li>Tallest image</li>
+<li>Auto</li>
+<li>Custom (3:1)</li>
+<li>Ultrawide (21:9)</li>
+<li>Double-width (2:1)</li>
+<li>Widescreen / HD (16:9)</li>
+<li>Classic / DSLR (3:2)</li>
+<li>ISO Paper (1.4:1)</li>
+<li>Standard Definition/SD (4:3)</li>
+<li>Landscape (5:4)</li>
+<li>Square (1:1)</li>
+<li>Instagram Portrait (4:5)</li>
+<li>Portrait (3:4)</li>
+<li>Pinterest Pin (2:3)</li>
+<li>Portrait (9:16)</li>
+</ul>
+</li>
+<li><strong>Image alignment</strong>: Control focal point during cropping (<code>Top left</code>,<code>Top center</code>,<code>Top right</code>,<code>Middle left</code>,<code>Middle center</code>,<code>Middle right</code>,<code>Bottom left</code>,<code>Bottom center</code>,<code>Bottom right</code>, etc.).</li>
+</ul>
+<p><strong>When style is Card</strong></p>
+<ul>
+<li><strong>Card style</strong>: Apply a visual preset from <strong><a href="/theme-settings/style-scheme-settings#-3-cards-style-schema">Theme Settings → Style scheme settings → Cards Style Schema</a></strong>.</li>
+<li><strong>Text alignment</strong>: Horizontal alignment of text within the card (<code>Left</code>, <code>Center</code>, <code>Right</code>).</li>
+<li><strong>Number per row</strong>: Number of cards displayed per row.</li>
+</ul>
+<p><strong>When style is Image</strong></p>
+<ul>
+<li><strong>Image width</strong>: Set the width of each image (e.g., <code>100px</code>, <code>150px</code>).</li>
+<li><strong>No spacing</strong>: Remove internal padding/margin between images when enabled.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<p><strong>Animations on scroll</strong>:</p>
+<ul>
+<li>Enable entrance animations as block enter the viewport.</li>
+<li>Configuration follows the standard <strong>Animations on Scroll</strong> settings.</li>
+<li>See: <strong><a href="/blocks/overview#animations-on-scroll">Blocks → Overview → Animations on scroll</a></strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reviews-stars">Reviews Stars<a href="#reviews-stars" class="hash-link" aria-label="Direct link to Reviews Stars" title="Direct link to Reviews Stars">​</a></h3>
+<p>Aggregate customer ratings.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Show reviews count</strong>: Toggle visibility of the total number of customer reviews (e.g., “(42 reviews)”).</li>
+<li><strong>Star size</strong>: Size of the rating stars as a percentage of the default (e.g., <code>100%</code>, <code>120%</code>).</li>
+<li><strong>Star color schema (inactive)</strong>: Color for unselected stars, chosen from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Star color schema (active)</strong>: Color for filled/selected stars, also selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>Note</strong>: To display reviews and ratings, you must install a <strong>third-party reviews app</strong> from the Shopify App Store. The app must support <strong>Shopify’s standard rating metafield</strong> (<code>rating</code> and <code>review_count</code>) to ensure compatibility with this block. Color variables referenced here are defined in your theme’s global color settings.</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="richtext">Richtext<a href="#richtext" class="hash-link" aria-label="Direct link to Richtext" title="Direct link to Richtext">​</a></h3>
+<p>Custom rich-text content.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<p><strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</p>
+<p><strong>Rich Text Content</strong></p>
+<ul>
+<li><strong>Rich text</strong>: Enter your custom content using the rich text editor (supports headings, lists, links, etc.).</li>
+<li><strong>Icon</strong>: Choose an icon to display alongside the text, or select <strong>No icon</strong>.</li>
+<li><strong>Icon size</strong>: Icon size as a percentage of default (e.g., <code>100%</code>, <code>120%</code>).</li>
+<li><strong>Icon color schema</strong>: Icon color selected from <strong>Theme Settings → Basic Settings → Colors</strong>.</li>
+<li><strong>Vertical alignment</strong>: Vertical positioning of the icon relative to the text—<code>Top</code>, <code>Center</code>, or <code>Bottom</code>.</li>
+</ul>
+<p><strong>Rich Text Style</strong></p>
+<ul>
+<li><strong>Background</strong>: Background color of the rich text container, chosen from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Radius</strong>: Corner style—<code>rounded1</code> to <code>rounded5</code>, <code>circle</code>, or <code>pill</code>.</li>
+<li><strong>Color schema</strong>: Text color, also selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+<li><strong>Show in quick buy</strong>: Display this collapsible block inside the quick-buy modal.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sharing">Sharing<a href="#sharing" class="hash-link" aria-label="Direct link to Sharing" title="Direct link to Sharing">​</a></h3>
+<p>Social sharing buttons.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong><br>
+<strong>Heading</strong>: The collapsible tab’s title. Add a child <strong><a href="/blocks/basic-block/heading">Heading</a></strong> block to display it. Omit the child block if no title is needed.</li>
+<li><strong>Heading line break</strong>: Toggle whether the heading text wraps to a new line (useful for long titles or responsive layouts).</li>
+<li><strong>Alignment</strong>: Horizontal alignment of the entire sharing component—<code>Left</code>, <code>Center</code>, or <code>Right</code>.</li>
+<li><strong>Show X (formerly Twitter)</strong>: Display the X (Twitter) social sharing icon.</li>
+<li><strong>Show Facebook</strong>: Display the Facebook social sharing icon.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sku">SKU<a href="#sku" class="hash-link" aria-label="Direct link to SKU" title="Direct link to SKU">​</a></h3>
+<p>Display product SKU.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="variant-picker">Variant Picker<a href="#variant-picker" class="hash-link" aria-label="Direct link to Variant Picker" title="Direct link to Variant Picker">​</a></h3>
+<p>Product option selector.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+<li><strong>Select the first available variant</strong>: Automatically select the first in-stock variant when the page loads.</li>
+<li><strong>Show for a single variant</strong>: Display the variant picker even if the product has only one variant.</li>
+<li><strong>Dynamic availability</strong>: Update lower-level options based on selection:<!-- -->
+<ul>
+<li><code>Off</code>: Show all options regardless of stock</li>
+<li><code>Show</code>: Gray out unavailable options</li>
+<li><code>Hide</code>: Remove unavailable options from the list</li>
+</ul>
+</li>
+<li><strong>Variant style</strong>: Choose how options are presented—<code>Buttons</code> or <code>Dropdown</code>.</li>
+<li><strong>Swatches style</strong>: Visual styling for color/size swatches, selected from <strong><a href="/theme-settings/style-scheme-settings#-1-variant-swatches-schema">Theme Settings → Style scheme settings → Variant Swatches Schema</a></strong>.</li>
+<li><strong>Buttons style</strong>: Styling for variant buttons (when <strong>Variant style = Buttons</strong>), also using the <strong><a href="/theme-settings/style-scheme-settings#-1-variant-swatches-schema">Theme Settings → Style scheme settings → Variant Swatches Schema</a></strong>.</li>
+<li><strong>Show radio</strong>: Display radio buttons for variant selection (alternative to swatches/buttons).</li>
+<li><strong>Show swatches label text</strong>: Show text labels (e.g., “Red”, “XL”) alongside swatch icons.</li>
+<li><strong>Update url when variant selected</strong>: Append the selected variant’s ID to the URL (e.g., <code>?variant=12345</code>) for direct linking.</li>
+</ul>
+<p><strong>Size Guide</strong></p>
+<ul>
+<li><strong>Enable size guide</strong>: Toggle visibility of the size guide link/button.</li>
+<li><strong>Link label</strong>: Text for the size guide button (e.g., “View Size Chart”).</li>
+<li><strong>Variant option name</strong>: The variant option (e.g., <code>Size</code>, <code>Taille</code>) this guide applies to.</li>
+<li><strong>Page containing size guide</strong>: Select a Shopify page that contains your size chart content.</li>
+<li><strong>Style</strong>: Button appearance—<code>button</code>, <code>outline</code>, or <code>link</code>.</li>
+<li><strong>Color schema</strong>: Button color selected from <strong><a href="/theme-settings/basic-settings#-4-colors">Theme Settings → Basic Settings → Colors</a></strong>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vendor">Vendor<a href="#vendor" class="hash-link" aria-label="Direct link to Vendor" title="Direct link to Vendor">​</a></h3>
+<p>Display product vendor name.</p>
+<ul>
+<li><strong>Block class</strong>: The CSS class name for block containers, commonly used for spacing adjustments. Refer to the settings <strong><a href="/blocks/overview#general-settings">Blocks → Overview → General Settings</a></strong></li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/blocks/composite-function-block/featured-collection"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Featured Collection</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/blocks/composite-function-block/featured-products"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Featured Products</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#settings" class="table-of-contents__link toc-highlight">Settings</a></li><li><a href="#child-blocks" class="table-of-contents__link toc-highlight">Child Blocks</a><ul><li><a href="#product-gallery" class="table-of-contents__link toc-highlight">Product Gallery</a></li><li><a href="#title" class="table-of-contents__link toc-highlight">Title</a></li><li><a href="#price" class="table-of-contents__link toc-highlight">Price</a></li><li><a href="#barcode" class="table-of-contents__link toc-highlight">Barcode</a></li><li><a href="#buy-buttons" class="table-of-contents__link toc-highlight">Buy Buttons</a></li><li><a href="#collapsible-tab" class="table-of-contents__link toc-highlight">Collapsible Tab</a></li><li><a href="#complementary-products" class="table-of-contents__link toc-highlight">Complementary Products</a></li><li><a href="#countdown-timer" class="table-of-contents__link toc-highlight">Countdown Timer</a></li><li><a href="#custom-liquid" class="table-of-contents__link toc-highlight">Custom Liquid</a></li><li><a href="#custom-option" class="table-of-contents__link toc-highlight">Custom Option</a></li><li><a href="#description" class="table-of-contents__link toc-highlight">Description</a></li><li><a href="#divider" class="table-of-contents__link toc-highlight">Divider</a></li><li><a href="#dynamic-source" class="table-of-contents__link toc-highlight">Dynamic Source</a></li><li><a href="#feature-rating" class="table-of-contents__link toc-highlight">Feature Rating</a></li><li><a href="#featured-image" class="table-of-contents__link toc-highlight">Featured Image</a></li><li><a href="#featured-links" class="table-of-contents__link toc-highlight">Featured Links</a></li><li><a href="#inventory-level" class="table-of-contents__link toc-highlight">Inventory Level</a></li><li><a href="#payment-icons" class="table-of-contents__link toc-highlight">Payment Icons</a></li><li><a href="#pop-up-modal" class="table-of-contents__link toc-highlight">Pop-up (Modal)</a></li><li><a href="#related-products" class="table-of-contents__link toc-highlight">Related Products</a></li><li><a href="#reviews-stars" class="table-of-contents__link toc-highlight">Reviews Stars</a></li><li><a href="#richtext" class="table-of-contents__link toc-highlight">Richtext</a></li><li><a href="#sharing" class="table-of-contents__link toc-highlight">Sharing</a></li><li><a href="#sku" class="table-of-contents__link toc-highlight">SKU</a></li><li><a href="#variant-picker" class="table-of-contents__link toc-highlight">Variant Picker</a></li><li><a href="#vendor" class="table-of-contents__link toc-highlight">Vendor</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2025 TaboQ Theme</div></div></div></footer></div>
+</body>
+</html>

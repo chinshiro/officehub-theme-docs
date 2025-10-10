@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-theme-settings/style-scheme-settings" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Style scheme settings | TaboQ Theme Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.taboq.com/theme-settings/style-scheme-settings"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Style scheme settings | TaboQ Theme Documentation"><meta data-rh="true" name="description" content="The TaboQ theme includes a powerful Style Schemes system that lets you define reusable design presets for common UI elements. These schemes can be applied across sections and blocks, ensuring visual consistency while reducing repetitive configuration."><meta data-rh="true" property="og:description" content="The TaboQ theme includes a powerful Style Schemes system that lets you define reusable design presets for common UI elements. These schemes can be applied across sections and blocks, ensuring visual consistency while reducing repetitive configuration."><link data-rh="true" rel="canonical" href="https://docs.taboq.com/theme-settings/style-scheme-settings"><link data-rh="true" rel="alternate" href="https://docs.taboq.com/theme-settings/style-scheme-settings" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.taboq.com/theme-settings/style-scheme-settings" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Style scheme settings","item":"https://docs.taboq.com/theme-settings/style-scheme-settings"}]}</script><link rel="stylesheet" href="/assets/css/styles.e16f76c7.css">
+<script src="/assets/js/runtime~main.50c518b6.js" defer="defer"></script>
+<script src="/assets/js/main.c4845427.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">TaboQ Theme</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/getting-started/overview">Documentation</a><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/contacting-support">Support</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/getting-started/overview">Getting Started</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/overview">Overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/support-policy">Support Policy</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/browser-support">Browser Support</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/accessibility">Accessibility (ADA, a11y)</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/theme-licensing-and-transfers">Theme License and Transfer</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/getting-started/theme-changelog">Theme Changelog</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/theme-basics/editing-your-theme">Theme Basics</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/theme-settings/basic-settings">Theme Settings</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/theme-settings/basic-settings">Basic Settings</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/theme-settings/style-scheme-settings">Style scheme settings</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/header-group/announcement-bar">Header Group</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/sections/featured-collection">Sections</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/footer-group/store-messages">Footer Group</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/overlay-group/cart-sidebar">Overlay Group</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/blocks/overview">Blocks</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/templates-settings/products">Templates Settings</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/advanced-guides/understanding-pagespeed-score">Advanced Guides</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/contacting-support">Contacting Support</a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Theme Settings</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Style scheme settings</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Style Schemes</h1></header>
+<p>The TaboQ theme includes a powerful <strong>Style Schemes</strong> system that lets you define reusable design presets for common UI elements. These schemes can be applied across sections and blocks, ensuring visual consistency while reducing repetitive configuration.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-1-variant-swatches-schema">🎯 1. Variant Swatches Schema<a href="#-1-variant-swatches-schema" class="hash-link" aria-label="Direct link to 🎯 1. Variant Swatches Schema" title="Direct link to 🎯 1. Variant Swatches Schema">​</a></h2>
+<p>In the variant style options of blocks, select the scheme number that corresponds.</p>
+<p><img decoding="async" loading="lazy" alt="Variant swatches schema" src="/assets/images/024-02d480451a77f2e2d742a00e4421289d.webp" width="500" height="919" class="img_ev3q"></p>
+<ul>
+<li><strong>Size</strong>: Swatch size as a percentage of the root font size (e.g., <code>125%</code> = 1.25 × root font size).</li>
+<li><strong>Width</strong>: Layout width of the swatch container:<!-- -->
+<ul>
+<li><code>auto</code>: Width adjusts to content</li>
+<li><code>half</code>: Takes 50% of the container width</li>
+<li><code>full</code>: Spans 100% of the container width</li>
+</ul>
+</li>
+<li><strong>Shape</strong>: Visual shape of the swatch:<!-- -->
+<ul>
+<li><code>none</code>: No rounding</li>
+<li><code>Rounded 1–5</code>: Increasing corner radius (1 = subtle, 5 = highly rounded)</li>
+<li><code>Circle</code>: Fully circular (for square swatches)</li>
+<li><code>Pill</code>: Capsule-shaped (ideal for text-based swatches)</li>
+</ul>
+</li>
+<li><strong>Background</strong>: Default background—supports solid colors, gradients, or <code>transparent</code>.</li>
+<li><strong>Border color</strong>: Outline color in the default state.</li>
+<li><strong>Text color</strong>: Color of the label or icon inside the swatch.</li>
+<li><strong>Background – selected</strong>: Background when the variant is active (supports gradients or <code>transparent</code>).</li>
+<li><strong>Border color – selected</strong>: Border color when the swatch is selected.</li>
+<li><strong>Text color – selected</strong>: Text/icon color in the selected state.</li>
+</ul>
+<blockquote>
+<p>✅ Applied in blocks via <strong>Swatch Scheme #1–8</strong> dropdown.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-2-background-image-schema">🖼️ 2. Background Image Schema<a href="#️-2-background-image-schema" class="hash-link" aria-label="Direct link to 🖼️ 2. Background Image Schema" title="Direct link to 🖼️ 2. Background Image Schema">​</a></h2>
+<p>In the background image option of each section&#x27;s main blocks, select the scheme number that corresponds.</p>
+<p><img decoding="async" loading="lazy" alt="Background image schema" src="/assets/images/025-284147d287e61ef3566bfc3e2da04f4b.webp" width="500" height="861" class="img_ev3q"></p>
+<ul>
+<li><strong>Background image (desktop)</strong>: High-res image for large screens</li>
+<li><strong>Background image (mobile)</strong>: Optimized image for mobile</li>
+<li><strong>Background repeat</strong>: <code>repeat</code>, <code>no-repeat</code>, etc.</li>
+<li><strong>Background position</strong>: Alignment (e.g., <code>center top</code>)</li>
+<li><strong>Background size</strong>: Typically <code>cover</code> to avoid distortion</li>
+<li><strong>Background attachment</strong>: <code>Scroll</code> (default) or <code>Fixed</code> (parallax effect)</li>
+</ul>
+<blockquote>
+<p>✅ Selectable in section settings as <strong>Background Scheme #1–5</strong>.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-3-cards-style-schema">📦 3. Cards Style Schema<a href="#-3-cards-style-schema" class="hash-link" aria-label="Direct link to 📦 3. Cards Style Schema" title="Direct link to 📦 3. Cards Style Schema">​</a></h2>
+<p>Used for product cards, blog cards, login boxes, etc. In the card style option of blocks, select the corresponding number.</p>
+<p><img decoding="async" loading="lazy" alt="Cards Style Schema" src="/assets/images/026-94677e08021fa66fb83012235723eec2.webp" width="500" height="1083" class="img_ev3q"></p>
+<ul>
+<li><strong>Background</strong>: Card background—supports solid colors, gradients, or transparent values.</li>
+<li><strong>Border</strong>: Border thickness in pixels (<code>px</code>). Set to <code>0</code> to remove the border entirely.</li>
+<li><strong>Border color</strong>: Color of the card’s outer border.</li>
+<li><strong>Border radius</strong>: Corner style:<!-- -->
+<ul>
+<li><code>none</code>: Sharp corners</li>
+<li><code>Rounded 1–5</code>: Increasingly rounded corners (1 = subtle, 5 = highly rounded)</li>
+<li><code>Circle</code>: Fully circular (best for square containers)</li>
+<li><code>Pill</code>: Capsule-shaped (ideal for rectangular cards with text)</li>
+</ul>
+</li>
+<li><strong>Inner radius</strong>: Radius applied to inner elements (e.g., product images inside the card) using the same shape options as above. Ensures visual harmony when spacing is applied.</li>
+<li><strong>Shadow</strong>: Drop shadow for depth. ⚠️ <strong>Performance note</strong>: Complex shadows can impact rendering speed—use <code>none</code> for optimal performance.</li>
+<li><strong>Spacing</strong>: Internal padding in <code>px</code> (<code>0</code> = no padding).</li>
+</ul>
+<p>Hover Effects - Settings below when the mouse is hovering.</p>
+<ul>
+<li><strong>Shadow</strong>: Enhanced or alternate shadow when the user hovers over the card.</li>
+<li><strong>Transform effect (Y)</strong>: Vertical movement on hover (e.g., <code>+4px</code> lifts the card up; <code>-2px</code> pushes it down).</li>
+<li><strong>Transform effect (scale)</strong>: Zoom effect on hover (e.g., <code>105%</code> = slight enlargement; <code>95%</code> = subtle shrink).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-4-selector-style-schema">📋 4. Selector Style Schema<a href="#-4-selector-style-schema" class="hash-link" aria-label="Direct link to 📋 4. Selector Style Schema" title="Direct link to 📋 4. Selector Style Schema">​</a></h2>
+<p>Style for enhanced <code>&lt;select&gt;</code> dropdowns (powered by Nice Select2). The nice select2 effect is enabled for form select options. By default, it displays the Selector scheme. It is used for currency and language selectors, as well as country and province selections in address and shipping cost calculations. Simply set the style scheme number in the corresponding location.</p>
+<p><img decoding="async" loading="lazy" alt="Selector Style Schema" src="/assets/images/027-d6f3052dd81468eeb3fb4519722c0871.webp" width="500" height="1030" class="img_ev3q"></p>
+<ul>
+<li><strong>Flag width</strong>: Width of the country flag (SVG) in the selector or dropdown menu, in <code>px</code>.</li>
+<li><strong>Flag height</strong>: Height of the country flag (SVG) in the selector or dropdown menu, in <code>px</code>.</li>
+<li><strong>Text size</strong>: Font size of the selector text, expressed as a percentage relative to the root font size (e.g., <code>100%</code> = same as root).</li>
+<li><strong>Background</strong>: Background of the selector—supports solid colors, gradients, or transparent values.</li>
+<li><strong>Border color</strong>: Color of the selector’s outer border.</li>
+<li><strong>Text color</strong>: Color of the displayed text inside the selector.</li>
+<li><strong>Search box border color</strong>: Border color of the search input field (when search is enabled in the dropdown).</li>
+<li><strong>Focus background</strong>: Background color when the selector is focused or opened.</li>
+<li><strong>Focus border color</strong>: Border color when the selector is focused or opened.</li>
+<li><strong>Focus text color</strong>: Text color when the selector is focused or opened.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-5-dropdown-style-schema">📥 5. Dropdown Style Schema<a href="#-5-dropdown-style-schema" class="hash-link" aria-label="Direct link to 📥 5. Dropdown Style Schema" title="Direct link to 📥 5. Dropdown Style Schema">​</a></h2>
+<p>Generally for sub-level dropdown navigation or the dropdown menu that expands after a select option, select the style scheme number that corresponds in the options.</p>
+<p><img decoding="async" loading="lazy" alt="Dropdown Style Schema" src="/assets/images/028-0ef0635abc74a6b58bb07b1d646d1033.webp" width="513" height="725" class="img_ev3q"></p>
+<ul>
+<li><strong>Background</strong>: Background of the entire dropdown menu—supports solid colors or gradients.</li>
+<li><strong>Border color</strong>: Color of the dropdown menu’s outer border.</li>
+<li><strong>Box shadow</strong>: Shadow effect applied to the dropdown for depth and visual separation.</li>
+<li><strong>Link size</strong>: Font size of the links inside the dropdown menu.</li>
+<li><strong>Link color</strong>: Text color of the dropdown links in their default state.</li>
+<li><strong>Link hover color</strong>: Text color when a user hovers over a dropdown link.</li>
+<li><strong>Link hover background</strong>: Background color behind the link on hover.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-6-navbar-style-schema">🔗 6. Navbar Style Schema<a href="#-6-navbar-style-schema" class="hash-link" aria-label="Direct link to 🔗 6. Navbar Style Schema" title="Direct link to 🔗 6. Navbar Style Schema">​</a></h2>
+<p>Mainly used for the main navigation in the header position or the navigation style settings in other application navigation link blocks, select the style scheme number that corresponds in the options.</p>
+<p><img decoding="async" loading="lazy" alt="Navbar Style Schema" src="/assets/images/029-6543c72228105d0faa9bdb2fcb9c4726.webp" width="500" height="985" class="img_ev3q"></p>
+<ul>
+<li><strong>Link size</strong>: Font size of navigation links.</li>
+<li><strong>Font weight</strong>: Thickness of link text—options include bold, normal, light, etc.</li>
+<li><strong>Text decoration</strong>: Visual styling for links in their default state (e.g., <code>none</code>, underline, overline, line-through).</li>
+<li><strong>Link color</strong>: Text color of navigation links.</li>
+<li><strong>Link background</strong>: Background color behind navigation links.</li>
+<li><strong>Hover text decoration</strong>: Link decoration on hover (e.g., <code>none</code>, underline, overline, line-through).</li>
+<li><strong>Hover color</strong>: Text color when a user hovers over a link.</li>
+<li><strong>Hover background</strong>: Background color behind the link on hover.</li>
+<li><strong>Link color when header transparent</strong>: Text color for navigation links when the header is set to transparent mode (e.g., over hero banners or images).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-7-mega-style-schema">🗂️ 7. Mega Style Schema<a href="#️-7-mega-style-schema" class="hash-link" aria-label="Direct link to 🗂️ 7. Mega Style Schema" title="Direct link to 🗂️ 7. Mega Style Schema">​</a></h2>
+<p>After enabling the Mega setting in the main navigation of the header, define the style scheme for the popped-out Mega menu by binding the style scheme number here.</p>
+<p><img decoding="async" loading="lazy" alt="Mega Style Schema" src="/assets/images/030-77ee9affb98e8acba11d3f8a3b910b9c.webp" width="500" height="1352" class="img_ev3q"></p>
+<ul>
+<li><strong>Background</strong>: Background color of the entire Mega menu—supports solid colors or gradients.</li>
+<li><strong>Box shadow</strong>: Drop shadow applied to the Mega menu for visual depth and separation from page content.</li>
+<li><strong>Link size</strong>: Font size of standard navigation links within the Mega menu.</li>
+<li><strong>Link font weight</strong>: Text thickness for standard links (e.g., normal, bold, light).</li>
+<li><strong>Link color</strong>: Default text color of standard links.</li>
+<li><strong>Link hover color</strong>: Text color when hovering over a standard link.</li>
+<li><strong>Heading link size</strong>: Font size for heading-level links (e.g., tab titles or grid category headers).</li>
+<li><strong>Heading link font weight</strong>: Font weight for heading-level links.</li>
+<li><strong>Heading link color</strong>: Text color of heading-level links in their default state.</li>
+<li><strong>Heading link background</strong>: Background color behind heading-level links (especially relevant in tab layouts).</li>
+<li><strong>Heading link hover color</strong>: Text color of heading-level links on hover.</li>
+<li><strong>Heading link hover background</strong>: Background color behind heading-level links on hover.</li>
+<li><strong>Nav-tabs border color</strong>: Border color for the <code>nav-tabs</code> style when used inside the Mega menu (e.g., bottom border of active tab).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-8-price-style-schema">💰 8. Price Style Schema<a href="#-8-price-style-schema" class="hash-link" aria-label="Direct link to 💰 8. Price Style Schema" title="Direct link to 💰 8. Price Style Schema">​</a></h2>
+<p>Prices have different display requirements on product pages, collection pages, or shopping cart pages. You can bind the preset style scheme number here.</p>
+<p><img decoding="async" loading="lazy" alt="Price Style Schema" src="/assets/images/031-0e86d41928df5532913b60dd07c7cc0d.webp" width="500" height="638" class="img_ev3q"></p>
+<ul>
+<li><strong>Price color</strong>: Text color of the main product price (e.g., sale price or regular price).</li>
+<li><strong>Price size</strong>: Font size of the main product price.</li>
+<li><strong>Compare-at price color</strong>: Text color of the original/strikethrough price (used to show discounts).</li>
+<li><strong>Compare-at price size</strong>: Font size of the compare-at price.</li>
+<li><strong>Unit price color</strong>: Text color for unit pricing (e.g., “$2.50 / kg”), if enabled in your store settings.</li>
+<li><strong>Unit price size</strong>: Font size for unit pricing text.</li>
+</ul>
+<blockquote>
+<p>✅ Assign different schemes per context (e.g., product page vs. collection grid).</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-9-input-style-schema">✏️ 9. Input Style Schema<a href="#️-9-input-style-schema" class="hash-link" aria-label="Direct link to ✏️ 9. Input Style Schema" title="Direct link to ✏️ 9. Input Style Schema">​</a></h2>
+<p>Or the style scheme for input box groups, commonly used in contact forms, login boxes, shipping cost calculations, address changes, and other situations that require input boxes. You can bind the preset style scheme number here.</p>
+<p><img decoding="async" loading="lazy" alt="Input Style Schema" src="/assets/images/032-296316ddd96cef140ccf6e3057a79fd1.webp" width="500" height="821" class="img_ev3q"></p>
+<ul>
+<li><strong>Background</strong>: Background color of the input field.</li>
+<li><strong>Text color</strong>: Color of the text inside the input field.</li>
+<li><strong>Border radius</strong>: Corner roundness of the input field (e.g., <code>4px</code>, <code>8px</code>, or pill-shaped).</li>
+<li><strong>Border color</strong>: Color of the input field’s border in its default state.</li>
+<li><strong>Box shadow</strong>: Drop shadow applied to the input for depth or visual emphasis.</li>
+<li><strong>Focus background</strong>: Background color when the input field is active (clicked or tabbed into).</li>
+<li><strong>Focus border color</strong>: Border color when the input is focused.</li>
+<li><strong>Focus box shadow</strong>: Shadow effect displayed when the input is in focus (often used to highlight active fields).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-10-inventory-level-style-schema">📊 10. Inventory Level Style Schema<a href="#-10-inventory-level-style-schema" class="hash-link" aria-label="Direct link to 📊 10. Inventory Level Style Schema" title="Direct link to 📊 10. Inventory Level Style Schema">​</a></h2>
+<p>Used when displaying products with inventory levels enabled, the style displayed is bound to the style scheme number here.</p>
+<p><img decoding="async" loading="lazy" alt="Inventory Level Style Schema" src="/assets/images/033-d4350c965ebc27c131e7452cefb36d06.webp" width="500" height="608" class="img_ev3q"></p>
+<ul>
+<li>
+<p><strong>Style</strong>: Display style for inventory level indicators. Options include:</p>
+<ul>
+<li><code>Button</code>: Solid background with full color fill</li>
+<li><code>Outline</code>: Hollow border with background appearing only on hover</li>
+<li><code>Badge</code>: Compact badge-style label (supports <code>*-lt</code> light color variants)</li>
+<li><code>Link</code>: Text styled as a clickable link</li>
+<li><code>Text</code>: Plain text with no interactive styling</li>
+</ul>
+</li>
+<li>
+<p><strong>Radius</strong>: Corner roundness (e.g., <code>Rounded 1–5</code>, <code>Pill</code>, or <code>Circle</code>)</p>
+</li>
+<li>
+<p><strong>In stock color</strong>: Text or background color when inventory is sufficient</p>
+</li>
+<li>
+<p><strong>Low stock color</strong>: Color used when stock is running low (typically a warning tone like orange or red)</p>
+</li>
+<li>
+<p><strong>Size</strong>: Available only for <code>Button</code> style—choose from <code>Small</code>, <code>Medium</code>, or <code>Large</code></p>
+</li>
+<li>
+<p><strong>Font weight</strong>: Text thickness (e.g., <code>normal</code>, <code>bold</code>, <code>light</code>)</p>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-11-sales-status-style-schema">🏷️ 11. Sales Status Style Schema<a href="#️-11-sales-status-style-schema" class="hash-link" aria-label="Direct link to 🏷️ 11. Sales Status Style Schema" title="Direct link to 🏷️ 11. Sales Status Style Schema">​</a></h2>
+<p>Used to mark the display styles of Sale/Sold out/Pre-order on the main product image. In product pages or product list cards, bind the preset style scheme number here.</p>
+<p><img decoding="async" loading="lazy" alt="Sales Status Style Schema" src="/assets/images/034-5bd644682a38076b02d1d01478dab0ca.webp" width="500" height="810" class="img_ev3q"></p>
+<ul>
+<li><strong>Size</strong>: Overall container size of the sales status badge (e.g., small, medium, large).</li>
+<li><strong>Position</strong>: Placement of the badge on the product image. Options include:<br>
+<code>Top left</code>, <code>Top center</code>, <code>Top right</code>, <code>Center</code>, <code>Bottom left</code>, <code>Bottom center</code>, <code>Bottom right</code>.</li>
+<li><strong>Text size</strong>: Font size of the text inside the badge.</li>
+<li><strong>Text color</strong>: Color of the text within the sales badge.</li>
+<li><strong>Rotate</strong>: Rotation angle (in degrees) applied to the entire badge (e.g., <code>-15°</code> for a tilted “Sale” tag).</li>
+<li><strong>Sale background / text color</strong>: Background and text colors used when the product is on <strong>sale</strong>.</li>
+<li><strong>Sold out background / text color</strong>: Background and text colors displayed when the product is <strong>sold out</strong>.</li>
+<li><strong>Pre-order background / text color</strong>: Background and text colors shown when the product is available for <strong>pre-order</strong>.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-12-search-bar-style-schema">🔍 12. Search Bar Style Schema<a href="#-12-search-bar-style-schema" class="hash-link" aria-label="Direct link to 🔍 12. Search Bar Style Schema" title="Direct link to 🔍 12. Search Bar Style Schema">​</a></h2>
+<p>The search bar is generally displayed at the top of the header and on the Search page. You can bind the preset style scheme number here separately.</p>
+<p><img decoding="async" loading="lazy" alt="Search Bar Style Schema" src="/assets/images/035-42b33df46e5fba4b2d220eec84736020.webp" width="500" height="1141" class="img_ev3q"></p>
+<ul>
+<li><strong>Background</strong>: Background color of the entire search bar.</li>
+<li><strong>Border color</strong>: Color of the search bar’s outer border.</li>
+<li><strong>Text color</strong>: Color of the text entered or displayed in the search input field.</li>
+<li><strong>Size</strong>: Overall size of the search bar—choose from <code>Small</code>, <code>Medium</code>, or <code>Large</code>.</li>
+<li><strong>Buttons</strong>: Button display style:<!-- -->
+<ul>
+<li><code>Separate</code>: Button is distinct from the input (background and color configurable)</li>
+<li><code>Inline</code>: Button appears inside the search field as an icon only (no background)</li>
+</ul>
+</li>
+<li><strong>Button color</strong>: Text or icon color of the search button.</li>
+<li><strong>Button background</strong>: Background color of the search button (applies only when <strong>Buttons</strong> is set to <code>Separate</code>).</li>
+<li><strong>Focus background</strong>: Background color when the search input is active (clicked or focused).</li>
+<li><strong>Focus border color</strong>: Border color in the focused state.</li>
+<li><strong>Focus button color</strong>: Button/icon color when the search bar is focused.</li>
+<li><strong>Focus button background</strong>: Button background color in the focused state (for <code>Separate</code> style only).</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-13-tags-style-schema">🏷️ 13. Tags Style Schema<a href="#️-13-tags-style-schema" class="hash-link" aria-label="Direct link to 🏷️ 13. Tags Style Schema" title="Direct link to 🏷️ 13. Tags Style Schema">​</a></h2>
+<p>Used for article tags or other blocks that need to display multiple tag styles. You can bind the preset style scheme number here.</p>
+<p><img decoding="async" loading="lazy" alt="Tags Style Schema" src="/assets/images/036-76423326591baaf140f7df5db41e4e8b.webp" width="500" height="1225" class="img_ev3q"></p>
+<ul>
+<li>
+<p><strong>Style</strong>: Display style for tags. Options include:</p>
+<ul>
+<li><code>Button</code>: Solid background with full fill</li>
+<li><code>Outline</code>: Hollow border with background appearing only on hover</li>
+<li><code>Badge</code>: Compact badge-style label (supports light color variants like <code>*-lt</code>)</li>
+<li><code>Link</code>: Text styled as a clickable link</li>
+<li><code>Text</code>: Plain text with no interactive styling</li>
+</ul>
+</li>
+<li>
+<p><strong>Radius</strong>: Corner roundness (e.g., <code>Rounded 1–5</code>, <code>Pill</code>, or <code>Circle</code>)</p>
+</li>
+<li>
+<p><strong>Color schema</strong>: Choose a single color variable from the <a href="/theme-settings/basic-settings#color-variables">Color Variables</a> list to apply uniformly to all tags</p>
+</li>
+<li>
+<p><strong>Or, custom colors</strong>: Assign a unique color to each tag using a comma-separated list of color variables or hex codes.<br>
+<!-- -->Example: <code>info,info-lt,red,pink-lt,#000,#ff0</code></p>
+<blockquote>
+<p>Main color code:</p>
+</blockquote>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">primary,secondary,success,info,warning,danger,light,dark,muted,blue,azure,indigo,purple,pink,red,orange,yellow,lime,green,teal,cyan,x,facebook,twitter,linkedin,google,youtube,vimeo,dribbble,github,instagram,pinterest,vk,rss,flickr,bitbucket,tabler,custom-color-1,custom-color-2</span><br></span></code></pre></div></div>
+<blockquote>
+<p>When Style is &quot;Badge&quot;, the following variable colors are also supported</p>
+</blockquote>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">primary-lt, secondary-lt, success-lt, info-lt, warning-lt, danger-lt, light-lt, dark-lt, muted-lt, blue-lt, azure-lt, indigo-lt, purple-lt, pink-lt, red-lt, orange-lt, yellow-lt, lime-lt, green-lt, teal-lt, cyan-lt</span><br></span></code></pre></div></div>
+<blockquote>
+<p>📌 The theme will cycle through these colors for consecutive tags.</p>
+</blockquote>
+</li>
+<li>
+<p><strong>Font weight</strong>: Text thickness (e.g., <code>normal</code>, <code>bold</code>, <code>light</code>)</p>
+</li>
+</ul>
+<blockquote>
+<p>✅ Ideal for dynamic tag clouds with varied visual emphasis.</p>
+</blockquote>
+<hr></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/theme-settings/basic-settings"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Basic Settings</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/header-group/announcement-bar"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Announcement Bar</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-1-variant-swatches-schema" class="table-of-contents__link toc-highlight">🎯 1. Variant Swatches Schema</a></li><li><a href="#️-2-background-image-schema" class="table-of-contents__link toc-highlight">🖼️ 2. Background Image Schema</a></li><li><a href="#-3-cards-style-schema" class="table-of-contents__link toc-highlight">📦 3. Cards Style Schema</a></li><li><a href="#-4-selector-style-schema" class="table-of-contents__link toc-highlight">📋 4. Selector Style Schema</a></li><li><a href="#-5-dropdown-style-schema" class="table-of-contents__link toc-highlight">📥 5. Dropdown Style Schema</a></li><li><a href="#-6-navbar-style-schema" class="table-of-contents__link toc-highlight">🔗 6. Navbar Style Schema</a></li><li><a href="#️-7-mega-style-schema" class="table-of-contents__link toc-highlight">🗂️ 7. Mega Style Schema</a></li><li><a href="#-8-price-style-schema" class="table-of-contents__link toc-highlight">💰 8. Price Style Schema</a></li><li><a href="#️-9-input-style-schema" class="table-of-contents__link toc-highlight">✏️ 9. Input Style Schema</a></li><li><a href="#-10-inventory-level-style-schema" class="table-of-contents__link toc-highlight">📊 10. Inventory Level Style Schema</a></li><li><a href="#️-11-sales-status-style-schema" class="table-of-contents__link toc-highlight">🏷️ 11. Sales Status Style Schema</a></li><li><a href="#-12-search-bar-style-schema" class="table-of-contents__link toc-highlight">🔍 12. Search Bar Style Schema</a></li><li><a href="#️-13-tags-style-schema" class="table-of-contents__link toc-highlight">🏷️ 13. Tags Style Schema</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© 2025 TaboQ Theme</div></div></div></footer></div>
+</body>
+</html>
