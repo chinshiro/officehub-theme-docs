@@ -21,15 +21,39 @@ module.exports = {
     ],
   ],
 
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/',
+        // language: ['en', 'zh'],
+        searchResultLimits: 8
+      },
+    ],
+  ],
+
   themeConfig: {
     navbar: {
       title: 'TaboQ Theme',
       items: [
         {
           type: 'doc',
-          docId: 'installation',
+          docId: 'getting-started/overview',
           position: 'left',
-          label: 'Docs',
+          label: 'Documentation',
+        },
+        {
+          type: 'search',
+          position: 'left',
+        },
+        {
+          type: 'doc',
+          docId: 'contacting-support',
+          position: 'right',
+          label: 'Support',
         }
       ],
     },
@@ -40,7 +64,11 @@ module.exports = {
     docs: {
       sidebar: {
         hideable: true,
-      },
+      }
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
     },
   },
 };
