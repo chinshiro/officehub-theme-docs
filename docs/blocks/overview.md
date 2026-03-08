@@ -5,7 +5,7 @@ sidebar_position: 63
 
 import Link from '@docusaurus/Link';
 
-Scenario theme provides a set of universal block components that can be freely added to any section. These blocks ensure consistent design and flexible layout control across your store.
+OfficeHub theme provides a set of universal block components that can be freely added to any section. These blocks ensure consistent design and flexible layout control across your store.
 
 ## General Settings
 
@@ -79,7 +79,7 @@ Once enabled, you can configure scroll animations on individual blocks using the
   Example: `200` = 0.2-second delay.
 
 ## Blocks category
-**Blocks** are the modular, reusable components that power your Scenario theme. They can be added to sections, nested within other blocks, or used to build complex layouts—all without writing code.
+**Blocks** are the modular, reusable components that power your OfficeHub theme. They can be added to sections, nested within other blocks, or used to build complex layouts—all without writing code.
 
 This section is organized into four categories to help you find the right block for your needs:
 

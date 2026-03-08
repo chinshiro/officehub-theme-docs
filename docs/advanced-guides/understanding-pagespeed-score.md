@@ -28,7 +28,7 @@ Many tools exist (e.g., **PageSpeed Insights**, **Lighthouse**), but we recommen
 
 ## 🧩 How Does the Theme Impact Performance?
 
-All **Scenario themes are performance-optimized**:
+All **OfficeHub themes are performance-optimized**:
 - Minimal, efficient JavaScript and CSS  
 - Smart image loading (e.g., LCP-aware lazy loading)  
 - Zero layout shifts (CLS-optimized by default)
@@ -42,7 +42,7 @@ All **Scenario themes are performance-optimized**:
 
 It’s true that **Dawn** (Shopify’s free theme) may score slightly higher—but it’s not an apples-to-apples comparison:
 
-| Feature | Dawn (Free) | Scenario (Premium) |
+| Feature | Dawn (Free) | OfficeHub (Premium) |
 |--------|------------|----------------|
 | Sections | ~10 basic sections | 50+ advanced sections |
 | Media | Basic image support | Video, 3D models, galleries, carousels |
@@ -81,11 +81,11 @@ Avoid “performance apps” or freelancers (e.g., on Fiverr) promising **90+ sc
 
 ## 🌐 Understanding Core Web Vitals
 
-Google’s **Core Web Vitals** directly impact your Pagespeed score. Here’s how Scenario handles them—and what you can do:
+Google’s **Core Web Vitals** directly impact your Pagespeed score. Here’s how OfficeHub handles them—and what you can do:
 
 ### 📏 CLS (Cumulative Layout Shift)
 - **What it is**: Unexpected layout shifts (e.g., images jumping after load).  
-- **Scenario status**: **Optimized by default** (no CLS from theme).  
+- **OfficeHub status**: **Optimized by default** (no CLS from theme).  
 - **Your action**:  
   - Avoid apps that inject content after load  
   - Use `width`/`height` on images  
@@ -93,7 +93,7 @@ Google’s **Core Web Vitals** directly impact your Pagespeed score. Here’s ho
 
 ### 🖼️ LCP (Largest Contentful Paint)
 - **What it is**: Time to load the main visual element (e.g., hero image, product photo).  
-- **Scenario status**: Smart preloading for likely LCP elements.  
+- **OfficeHub status**: Smart preloading for likely LCP elements.  
 - **Your action**:  
   - Place **slideshow or text hero** as the **first section** on homepage  
   - **Compress images** (use **WEBP**, max **2560px wide**)  
@@ -102,7 +102,7 @@ Google’s **Core Web Vitals** directly impact your Pagespeed score. Here’s ho
 ### ⚡ FID / INP (Interaction Metrics)
 - **FID** (First Input Delay) is being replaced by **INP** (Interaction to Next Paint) in 2024.  
 - Measures responsiveness to clicks, taps, and scrolls.  
-- **Scenario status**: Lightweight, deferred JavaScript.  
+- **OfficeHub status**: Lightweight, deferred JavaScript.  
 - **Your action**:  
   - **Remove unused apps** (biggest cause of poor INP)  
   - **Limit heavy sections** (e.g., only 1 slideshow per page)  

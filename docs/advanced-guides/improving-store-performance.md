@@ -129,7 +129,7 @@ Some themes (e.g., Impact, Prestige) offer **fade-in/fade-out page transitions**
 2. Go to **Theme Settings > Animation**  
 3. Turn off **“Show page transition”**
 
-> ⚠️ **Note**: Scenario does **not include page transitions** by default—this setting only applies if you’ve added it via custom code.
+> ⚠️ **Note**: OfficeHub does **not include page transitions** by default—this setting only applies if you’ve added it via custom code.
 
 ---
 

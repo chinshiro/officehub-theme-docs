@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Scenario Theme Documentation',
+  title: 'OfficeHub Theme Documentation',
   tagline: 'Professional Shopify theme for modern stores',
   url: 'https://docs.chinshiro.com',
   baseUrl: '/',
@@ -37,7 +37,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'Scenario Theme',
+      title: 'OfficeHub Theme',
       items: [
         {
           type: 'doc',
@@ -59,7 +59,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} Scenario Theme`,
+      copyright: `© ${new Date().getFullYear()} OfficeHub Theme`,
     },
     docs: {
       sidebar: {

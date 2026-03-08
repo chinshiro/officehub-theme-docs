@@ -20,7 +20,7 @@ A common point of confusion is:
 
 Here’s a simple rule of thumb:
 
-| Scenario | Solution |
+| OfficeHub | Solution |
 |--------|--------|
 | **Sections differ** (e.g., one product needs specs table, another needs a demo video) | ➡️ **Create alternate templates** |
 | **Sections are the same, but content varies per product** | ➡️ **Use metafields** |

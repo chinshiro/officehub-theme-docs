@@ -1,2 +1,2 @@
 # Scenario-theme-docs
-Official documentation for Scenario - Shopify Theme
+Official documentation for OfficeHub - Shopify Theme

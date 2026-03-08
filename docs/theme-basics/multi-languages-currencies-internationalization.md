@@ -5,7 +5,7 @@ sidebar_position: 18
 
 # Multi-languages, Currencies and Internationalization
 
-If you sell internationally, your store must support **multiple languages and currencies**. The **Scenario theme** offers full compatibility with Shopify’s built-in internationalization features—but setup is managed **entirely in the Shopify admin**, not within the theme itself.
+If you sell internationally, your store must support **multiple languages and currencies**. The **OfficeHub theme** offers full compatibility with Shopify’s built-in internationalization features—but setup is managed **entirely in the Shopify admin**, not within the theme itself.
 
 ---
 
@@ -13,7 +13,7 @@ If you sell internationally, your store must support **multiple languages and cu
 
 Languages are **not added via the theme**—they’re configured in **Shopify Admin > Settings > Languages**.
 
-- The **Scenario theme** includes **pre-translated language files** for built-in UI text (e.g., “Add to cart,” “Search,” “Sold out”).
+- The **OfficeHub theme** includes **pre-translated language files** for built-in UI text (e.g., “Add to cart,” “Search,” “Sold out”).
 - However, **custom content** (product descriptions, page content, blog posts, etc.) **is not auto-translated** by the theme.
 
 ✅ **To translate your custom content**, use:
@@ -31,7 +31,7 @@ Languages are **not added via the theme**—they’re configured in **Shopify Ad
 Currencies are managed through **Shopify Admin > Settings > Markets** (or **Payments > Currencies** on older setups).
 
 - Once you enable **multiple currencies**, Shopify automatically displays prices in the customer’s local currency (based on location or selection).
-- The **Scenario theme** automatically reflects the currency provided by Shopify—no theme configuration needed.
+- The **OfficeHub theme** automatically reflects the currency provided by Shopify—no theme configuration needed.
 
 📘 Learn more: [Shopify’s guide to selling in multiple currencies](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency)
 
@@ -39,7 +39,7 @@ Currencies are managed through **Shopify Admin > Settings > Markets** (or **Paym
 
 ## 🔁 Enabling Language & Currency Selectors
 
-The **Scenario theme** includes **built-in language and currency selectors**, typically located in the **Header** or **Footer**.
+The **OfficeHub theme** includes **built-in language and currency selectors**, typically located in the **Header** or **Footer**.
 
 ### To activate them:
 1. Open the **Theme Editor** (Online Store > Themes > Customize).
@@ -58,7 +58,7 @@ The **Scenario theme** includes **built-in language and currency selectors**, ty
 
 ## 🌐 Pre-Translated Theme Support
 
-The **Scenario theme** is pre-translated into the following languages:  
+The **OfficeHub theme** is pre-translated into the following languages:  
 Arabic, German, English, Spanish, French, Italian, Japanese, Korean, Dutch, Portuguese (Portugal), Russian,  Chinese (Simplified)
 
 > 📌 **Note**: The **theme settings panel** (in the Theme Editor) is currently available in **English only**.
@@ -67,7 +67,7 @@ Arabic, German, English, Spanish, French, Italian, Japanese, Korean, Dutch, Port
 
 ## ➡️ RTL (Right-to-Left) Language Support
 
-The **Scenario theme fully supports RTL languages** such as **Arabic** and **Hebrew**.
+The **OfficeHub theme fully supports RTL languages** such as **Arabic** and **Hebrew**.
 
 ✅ To enable RTL:  
 Set your store’s language to an RTL language in **Shopify Admin > Settings > Languages**. The theme will **automatically adapt** layout, text alignment, and navigation.

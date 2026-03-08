@@ -15,7 +15,7 @@ For example, if you purchased the theme for `my-first-store.myshopify.com`, it m
 You may only use the theme on a different store **after officially transferring the license**—a process governed by Shopify.
 
 :::caution Important
-Scenario does **not** offer refunds, discounts, or bulk theme purchases. All theme sales and licensing are managed exclusively by Shopify.
+OfficeHub does **not** offer refunds, discounts, or bulk theme purchases. All theme sales and licensing are managed exclusively by Shopify.
 :::
 
 

@@ -1,5 +1,5 @@
 ---
-title: Scenario Theme Documentation
+title: OfficeHub Theme Documentation
 description: Professional Shopify theme for modern stores
 slug: /
 hide_table_of_contents: true
@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 import Link from '@docusaurus/Link';
 
-# <span style={{textAlign: 'center', display: 'block'}}>Scenario Theme Documentation</span>
+# <span style={{textAlign: 'center', display: 'block'}}>OfficeHub Theme Documentation</span>
 
 <div style={{textAlign: 'center'}}>**Scenario** is a professional, high-performance Shopify theme designed for modern e-commerce stores. Built with flexibility, speed, and conversion in mind.</div>
 
@@ -23,7 +23,7 @@ import Link from '@docusaurus/Link';
   boxShadow: 'var(--ifm-global-shadow-lw)'
 }}>
   <h3>📖 Read Documentation</h3>
-  <p>Learn install, configure, and customize your Scenario theme.</p>
+  <p>Learn install, configure, and customize your OfficeHub theme.</p>
   <Link 
     to="/getting-started/overview" 
     className="button button--primary button--lg"

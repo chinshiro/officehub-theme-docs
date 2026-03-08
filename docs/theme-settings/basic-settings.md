@@ -5,7 +5,7 @@ sidebar_position: 25
 
 # Basic Settings
 
-The **Basic Settings** panel in the Scenario theme allows you to configure global design, layout, and functionality options that apply across your entire store. All changes are made directly in the **Theme Editor** under **Theme Settings**.
+The **Basic Settings** panel in the OfficeHub theme allows you to configure global design, layout, and functionality options that apply across your entire store. All changes are made directly in the **Theme Editor** under **Theme Settings**.
 
 ---
 
