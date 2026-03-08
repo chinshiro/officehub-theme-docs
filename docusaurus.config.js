@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'TaboQ Theme Documentation',
+  title: 'Scenario Theme Documentation',
   tagline: 'Professional Shopify theme for modern stores',
-  url: 'https://docs.taboq.com',
+  url: 'https://docs.chinshiro.com',
   baseUrl: '/',
   organizationName: 'chinshiro',
-  projectName: 'TaboQ-theme-docs',
+  projectName: 'scenario-theme-docs',
 
   presets: [
     [
@@ -37,7 +37,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'TaboQ Theme',
+      title: 'Scenario Theme',
       items: [
         {
           type: 'doc',
@@ -59,7 +59,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} TaboQ Theme`,
+      copyright: `© ${new Date().getFullYear()} Scenario Theme`,
     },
     docs: {
       sidebar: {

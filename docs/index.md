@@ -1,5 +1,5 @@
 ---
-title: TaboQ Theme Documentation
+title: Scenario Theme Documentation
 description: Professional Shopify theme for modern stores
 slug: /
 hide_table_of_contents: true
@@ -7,9 +7,9 @@ hide_table_of_contents: true
 
 import Link from '@docusaurus/Link';
 
-# <span style={{textAlign: 'center', display: 'block'}}>TaboQ Theme Documentation</span>
+# <span style={{textAlign: 'center', display: 'block'}}>Scenario Theme Documentation</span>
 
-<div style={{textAlign: 'center'}}>**TaboQ** is a professional, high-performance Shopify theme designed for modern e-commerce stores. Built with flexibility, speed, and conversion in mind.</div>
+<div style={{textAlign: 'center'}}>**Scenario** is a professional, high-performance Shopify theme designed for modern e-commerce stores. Built with flexibility, speed, and conversion in mind.</div>
 
 ## <div style={{textAlign: 'center', marginTop: '2rem'}}>🚀 Get Started</div>
 
@@ -23,7 +23,7 @@ import Link from '@docusaurus/Link';
   boxShadow: 'var(--ifm-global-shadow-lw)'
 }}>
   <h3>📖 Read Documentation</h3>
-  <p>Learn how to install, configure, and customize your TaboQ theme.</p>
+  <p>Learn install, configure, and customize your Scenario theme.</p>
   <Link 
     to="/getting-started/overview" 
     className="button button--primary button--lg"

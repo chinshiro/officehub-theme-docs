@@ -3,7 +3,7 @@ title: Overview
 sidebar_position: 7
 ---
 
-Welcome to the **Theme Basics** section—your foundation for setting up, customizing, and optimizing the TaboQ theme. Whether you're launching your first store or scaling an existing brand, these guides will help you use the theme effectively, safely, and in line with Shopify best practices.
+Welcome to the **Theme Basics** section—your foundation for setting up, customizing, and optimizing the Scenario theme. Whether you're launching your first store or scaling an existing brand, these guides will help you use the theme effectively, safely, and in line with Shopify best practices.
 
 From editing and updating your theme to mastering sections, metafields, and internationalization, this section covers everything you need to build a fast, professional, and conversion-ready store—**without breaking your site**.
 

@@ -17,7 +17,7 @@ High-quality, fast-loading images are essential for building customer trust and 
 
 ## 🖼️ Theme Editor Images
 
-When uploading images directly in the **TaboQ Theme Editor** (e.g., banners, icons, custom sections), you’ll see a **recommended size** displayed below the image picker, for example:
+When uploading images directly in the **Scenario Theme Editor** (e.g., banners, icons, custom sections), you’ll see a **recommended size** displayed below the image picker, for example:
 
 	![Recommended image size](/img/014.webp)
 
@@ -72,7 +72,7 @@ Blog images are used on your homepage, blog index, and social shares.
 
 ## ✂️ Image Cropping
 
-All sections in the TaboQ theme include **built-in image cropping controls** with preset aspect ratios (e.g., square, landscape, portrait).
+All sections in the Scenario theme include **built-in image cropping controls** with preset aspect ratios (e.g., square, landscape, portrait).
 
 	![Enable image cropping and ratio settings](/img/015.webp)
 

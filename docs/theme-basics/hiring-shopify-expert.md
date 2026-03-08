@@ -5,7 +5,7 @@ sidebar_position: 22
 
 # Hiring a Shopify Expert for Customization
 
-While the TaboQ theme offers a wide range of sections, settings, and built-in flexibility, you may occasionally need **custom functionality** or **unique design elements** that go beyond what’s possible through the Theme Editor.
+While the Scenario theme offers a wide range of sections, settings, and built-in flexibility, you may occasionally need **custom functionality** or **unique design elements** that go beyond what’s possible through the Theme Editor.
 
 In such cases, the best and safest approach is to hire a **Shopify Expert**—a vetted professional with proven experience in Shopify development.
 

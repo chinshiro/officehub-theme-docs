@@ -3,7 +3,7 @@ title: General Section
 sidebar_position: 45
 ---
 
-The **General Section** is a fully flexible container that supports **any block** available in the TaboQ theme. It’s ideal for building custom layouts, combining content types, or prototyping unique page sections without structural constraints.
+The **General Section** is a fully flexible container that supports **any block** available in the Scenario theme. It’s ideal for building custom layouts, combining content types, or prototyping unique page sections without structural constraints.
 
 ## Multi-Column Layouts
 

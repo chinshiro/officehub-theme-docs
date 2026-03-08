@@ -5,7 +5,7 @@ sidebar_position: 24
 
 # Wholesale and Quantity Discounts
 
-The TaboQ theme supports **wholesale pricing** by allowing you to set different prices based on **quantity ranges**—all without requiring apps or custom code.
+The Scenario theme supports **wholesale pricing** by allowing you to set different prices based on **quantity ranges**—all without requiring apps or custom code.
 
 When configured correctly, the storefront will **automatically display a clean pricing table** and **hide the technical variant** from customers, providing a seamless wholesale experience.
 
@@ -39,7 +39,7 @@ When configured correctly, the storefront will **automatically display a clean p
 
 ### Step 2: View on Storefront
 
-Once saved, the TaboQ theme will **automatically**:
+Once saved, the Scenario theme will **automatically**:
 - **Hide the `qty` dropdown** from the product page
 - **Display a clean pricing table** showing quantity ranges and corresponding prices
 

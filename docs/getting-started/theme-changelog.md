@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Theme Changelog
 
-This document outlines the release history, new features, improvements, and bug fixes for the **TaboQ** Shopify theme.  
+This document outlines the release history, new features, improvements, and bug fixes for the **Scenario** Shopify theme.  
 We recommend keeping your theme up to date to benefit from the latest enhancements and security updates.
 
 > 💡 **Tip**: To update your theme, download the latest version from the [Shopify Theme Store](https://themes.shopify.com) and follow Shopify’s [theme update guide](https://help.shopify.com/en/manual/online-store/themes/theme-versions).
@@ -16,7 +16,7 @@ We recommend keeping your theme up to date to benefit from the latest enhancemen
 
 ### 🎉 Initial Release
 - Fully responsive design with mobile-first approach.
-- Built on **Tabler 1.3**, which is based on **Bootstrap 5.3** — as a result, TaboQ’s initial CSS foundation corresponds to **Bootstrap 5.0+** standards.
+- Built on **Tabler 1.3**, which is based on **Bootstrap 5.3** — as a result, Scenario’s initial CSS foundation corresponds to **Bootstrap 5.0+** standards.
 - Supports Shopify 2.0 theme architecture (sections everywhere).
 - Built-in accessibility features (keyboard navigation, screen reader support).
 - Optimized for Core Web Vitals and SEO.

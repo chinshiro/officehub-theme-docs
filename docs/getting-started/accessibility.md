@@ -7,7 +7,7 @@ sidebar_position: 4
 
 "Accessibility" encompasses a broad range of practices aimed at ensuring that people with disabilities—such as visual or motor impairments—can easily use your online store. This includes support for keyboard navigation, screen readers, and other assistive technologies.
 
-At TaboQ, we take accessibility seriously. Our themes are built using industry best practices, and we are committed to continuous improvement to ensure your store is usable by everyone.
+At Scenario, we take accessibility seriously. Our themes are built using industry best practices, and we are committed to continuous improvement to ensure your store is usable by everyone.
 
 ## Is My Theme ADA Compliant?
 

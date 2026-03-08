@@ -3,7 +3,7 @@ title: Overview
 sidebar_position: 30
 ---
 
-In the TaboQ theme, every **Section** is a flexible container built from **Blocks**. You can freely add, reorder, and configure blocks within any section to create unique layouts—no coding required.
+In the Scenario theme, every **Section** is a flexible container built from **Blocks**. You can freely add, reorder, and configure blocks within any section to create unique layouts—no coding required.
 
 All sections are designed to be **modular, responsive, and performance-optimized**, giving you full creative control while maintaining speed and usability.
 

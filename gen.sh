@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # generate-docs.sh
-# 自动生成 TaboQ 主题文档的所有 .md 文件（带 front matter）
+# 自动生成 Scenario 主题文档的所有 .md 文件（带 front matter）
 # 运行前确保在 Docusaurus 项目根目录
 
 set -e

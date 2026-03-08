@@ -5,7 +5,7 @@ sidebar_position: 26
 
 # Style Schemes
 
-The TaboQ theme includes a powerful **Style Schemes** system that lets you define reusable design presets for common UI elements. These schemes can be applied across sections and blocks, ensuring visual consistency while reducing repetitive configuration.
+The Scenario theme includes a powerful **Style Schemes** system that lets you define reusable design presets for common UI elements. These schemes can be applied across sections and blocks, ensuring visual consistency while reducing repetitive configuration.
 
 ---
 

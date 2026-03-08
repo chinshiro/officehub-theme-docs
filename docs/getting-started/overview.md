@@ -9,9 +9,9 @@ import Link from '@docusaurus/Link';
 
 # <span style={{textAlign: 'center', display: 'block'}}>Overview</span>
 
-Thank you for choosing **TaboQ**—a powerful, flexible, and performance-optimized Shopify theme designed for modern e-commerce brands. This documentation will help you set up, customize, and scale your store with confidence.
+Thank you for choosing **Scenario**—a powerful, flexible, and performance-optimized Shopify theme designed for modern e-commerce brands. This documentation will help you set up, customize, and scale your store with confidence.
 
-Whether you're launching your first product or managing a global catalog, TaboQ gives you the tools to create a fast, beautiful, and conversion-focused shopping experience—**without writing a single line of code**.
+Whether you're launching your first product or managing a global catalog, Scenario gives you the tools to create a fast, beautiful, and conversion-focused shopping experience—**without writing a single line of code**.
 
 - **[Support Policy](/getting-started/support-policy)**
 - **[Browser Support](/getting-started/browser-support)**

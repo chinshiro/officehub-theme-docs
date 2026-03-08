@@ -27,6 +27,27 @@ The **Footer** section appears at the bottom of every page and consists of two m
 - **Collapse border color**: Border color selected from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
 - **Collapse border radius**: Corner roundness for collapsed items (e.g., `Rounded 1–5`, `Pill`, `Circle`).
 
+**Back-to-top button**
+- **Enable show back to top button**: Toggle the visibility of the floating “Back to Top” button that appears when users scroll down the page.  
+- **Button style**: Choose the visual style—`button` (solid fill) or `outline` (hollow with border).  
+- **Button radius**: Set the corner roundness of the main “Back to Top” button (e.g., `Rounded 1–5`, `Pill`, `Circle`).  
+- **Button color**: Select the background or border color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.
+
+**Custom Action Buttons (up to 3)**
+You can add up to three additional floating action buttons alongside the “Back to Top” button.
+
+- **Custom icon 1 / 2 / 3**: Choose an icon for each button. Select `No icon` to hide the button entirely.  
+- **Custom link 1 / 2 / 3**: Set the destination URL for each button (e.g., `/contact`, `https://wa.me/123456789`, `mailto:support@example.com`).  
+- **Custom button color 1 / 2 / 3**: Assign a color for each button from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.
+
+> 💡 **Common uses**:  
+> - Button 1: WhatsApp chat  
+> - Button 2: Email support  
+> - Button 3: Phone call  
+> All buttons appear as small floating icons on the bottom-right corner of the screen (desktop and mobile).
+
+
+
 ---
 
 ## Footer Group
