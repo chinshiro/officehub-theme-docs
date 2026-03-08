@@ -1,10 +1,10 @@
 module.exports = {
   title: 'OfficeHub Theme Documentation',
   tagline: 'Professional Shopify theme for modern stores',
-  url: 'https://docs.chinshiro.com',
+  url: 'https://officehub.chinshiro.com',
   baseUrl: '/',
   organizationName: 'chinshiro',
-  projectName: 'scenario-theme-docs',
+  projectName: 'officeHub-theme-docs',
 
   presets: [
     [
