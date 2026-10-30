@@ -3,11 +3,11 @@ title: Countdown Timer
 sidebar_position: 71
 ---
 
-Countdown Timer  
 A countdown component for displaying time-limited promotions or sales.
 
-## Parameters
+## Main Settings
 
+<img src={require('/img/091.webp').default} alt="Countdown Timer block settings" style={{ float: 'left', marginRight: '30px' }} />
 ### Block Class
 - **Block class**: Custom CSS class applied to the block container for additional styling or spacing control. **[Blocks → Overview → General Settings](/blocks/overview#general-settings)** 
 
@@ -23,10 +23,12 @@ A countdown component for displaying time-limited promotions or sales.
 - **End time (optional)**: The exact end time in 24-hour format (e.g., `17:00`). Uses your store’s configured timezone.  
 - **End text**: Message displayed after the countdown expires (e.g., “Sale ended!” or “Offer expired”).  
 - **Hide the timer when the date and time elapses**: Toggle to automatically hide the entire timer once the end time is reached.
+<div style={{ clear: 'both' }} />
 
 ---
 
 ### Countdown Style
+<img src={require('/img/092.webp').default} alt="Countdown Timer Style settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Show wide countdown timer**: Expand the timer to 100% container width.  
 - **Background**: Background color of the countdown container.  
 - **Radius**: Corner roundness (e.g., `Rounded 1–5`, `Pill`, `Circle`).  
@@ -36,6 +38,7 @@ A countdown component for displaying time-limited promotions or sales.
 - **Show labels**: Toggle visibility of time unit labels (e.g., “Days”, “Hours”).  
 - **Labels size**: Font size of the labels.  
 - **Labels color schema**: Text color for the labels, selected from theme color variables.
+<div style={{ clear: 'both' }} />
 
 ---
 

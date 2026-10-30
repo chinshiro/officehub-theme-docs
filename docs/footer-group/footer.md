@@ -7,13 +7,21 @@ The **Footer** section appears at the bottom of every page and consists of two m
 
 ## Settings
 
+<img src={require('/img/059.webp').default} alt="Footer settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Enable full width**: Expand the footer to 100% of the viewport width.  
 - **Section class**: Custom CSS class for the entire footer container.  
 - **Background**: Set a solid or gradient background color.  
 - **Or, use image**: Apply a background image using a preset from **[Theme Settings → Style scheme settings → Background Image Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-2-background-image-schema)**.  
   > All four settings above follow: **[Blocks → Overview → General Settings](/blocks/overview#general-settings)**
+- **Enable background fixed**: When toggled on, the footer’s background remains stationary while page content scrolls over it (parallax effect). If off, the background scrolls normally with the page.
+- **Show top divider**: Enables or disables a visual separator line at the top edge of the footer section. Useful for visually distinguishing the footer from main content.
+- **Divider color**: Defines the color treatment of the top divider line. Options include solid colors or gradients (e.g., “Radial gradient”) — actual color values are controlled via theme variables or custom CSS.
+<div style={{ clear: 'both' }} />
+
+---
 
 **Mobile Layout**
+<img src={require('/img/060.webp').default} alt="Mobile Layout settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Mobile layout**: Layout method for mobile devices
   - `Grid`: Display all footer columns in a responsive grid.  
   - `Collapse`: Stack columns and allow them to expand/collapse like accordions.  
@@ -26,8 +34,10 @@ The **Footer** section appears at the bottom of every page and consists of two m
   - `Bottom | heading & content`: Horizontal border below both heading and content. 
 - **Collapse border color**: Border color selected from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
 - **Collapse border radius**: Corner roundness for collapsed items (e.g., `Rounded 1–5`, `Pill`, `Circle`).
+<div style={{ clear: 'both' }} />
 
 **Back-to-top button**
+<img src={require('/img/061.webp').default} alt="Back-to-top button settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Enable show back to top button**: Toggle the visibility of the floating “Back to Top” button that appears when users scroll down the page.  
 - **Button style**: Choose the visual style—`button` (solid fill) or `outline` (hollow with border).  
 - **Button radius**: Set the corner roundness of the main “Back to Top” button (e.g., `Rounded 1–5`, `Pill`, `Circle`).  
@@ -45,14 +55,20 @@ You can add up to three additional floating action buttons alongside the “Back
 > - Button 2: Email support  
 > - Button 3: Phone call  
 > All buttons appear as small floating icons on the bottom-right corner of the screen (desktop and mobile).
+<div style={{ clear: 'both' }} />
 
-
+### Supported Child Blocks
+  > 💡 Note: Footer only supports sub blocks: 
+  > 1. [Footer group](#footer-group) : Allow multiple additions and free deletion.
+  > 2. [Copyright](#copyright) : Fixed block, cannot be added or deleted, can be hidden.
 
 ---
 
 ## Footer Group
 
 A reusable column block for organizing footer content (e.g., links, contact info, newsletter).
+
+<img src={require('/img/062.webp').default} alt="Footer Group settings" style={{ float: 'left', marginRight: '30px' }} />
 
 ### Settings
 - **Block name**: Internal name for identification in the Theme Editor sidebar.  
@@ -67,7 +83,12 @@ A reusable column block for organizing footer content (e.g., links, contact info
   - `Wide` (100% width, full-width column)  
 - **Collapsed**: Start in collapsed state on mobile (only applies when **Mobile layout = Collapse**).
 
-### Supported Child Blocks
+<div style={{ clear: 'both' }} />
+
+### Footer Group Child Blocks
+
+<img src={require('/img/063.webp').default} alt="Footer Group Child Blocks" style={{ float: 'left', marginRight: '30px' }} />
+
 #### Heading 
 > Settings follow **[Blocks → Basic Block → Heading](/blocks/basic-block/heading)**. 
 
@@ -92,25 +113,32 @@ A reusable column block for organizing footer content (e.g., links, contact info
 #### Social media icons 
 > Settings follow **[Blocks → Basic Block → Social Media Icons](/blocks/basic-block/social-media-icons)**. 
 
+<div style={{ clear: 'both' }} />
+
 ---
 
 ## Copyright
 
 The bottom bar displaying legal and brand information.
 
+<img src={require('/img/064.webp').default} alt="Copyright settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Enable full width**: Expand the copyright bar to 100% width.  
 - **Block class**: Custom CSS class for the copyright container.  
 - **Background**: Set a solid or gradient background color.  
-- **Or, use image**: Apply a background image using a preset from **[Theme Settings → Style scheme settings → Background Image Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-2-background-image-schema)**.  
-  > All four settings above follow: **[Blocks → Overview → General Settings](/blocks/overview#general-settings)**
+- **Or, use image**: Apply a background image using a preset from **[Theme Settings → Style scheme settings → Background Image Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-2-background-image-schema)**.
+- **Enable background fixed**: When toggled on, the footer’s background remains stationary while page content scrolls over it (parallax effect). If off, the background scrolls normally with the page.
+  > All settings above follow: **[Blocks → Overview → General Settings](/blocks/overview#general-settings)**
 - **Text color**: Copyright text color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
 - **Show divider**: Display a top border above the copyright text.  
 - **Divider color**: Divider line color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
 - **Copyright text**: Customizable text with Liquid support.  
   > 💡 Example: `© {{ "now" | date: "%Y" }} Your Store. All rights reserved.`  
 - **Position**: Text alignment—`left` or `right`.
+<div style={{ clear: 'both' }} />
 
-### Supported Child Blocks
+### Copyright Child Blocks
+
+<img src={require('/img/065.webp').default} alt="Copyright Child Blocks settings" style={{ float: 'left', marginRight: '30px' }} />
 #### Currency/Language 
 > Settings follow **[Blocks → Basic Block → Currency Language](/blocks/basic-block/currency-language)**.
 
@@ -119,3 +147,4 @@ The bottom bar displaying legal and brand information.
 
 #### Payment icons
 > Settings follow **[Blocks → Basic Block → Payment Icons](/blocks/basic-block/payment-icons)**. 
+<div style={{ clear: 'both' }} />

@@ -71,33 +71,18 @@ Used for product cards, blog cards, login boxes, etc. In the card style option o
 - **Shadow**: Drop shadow for depth. ⚠️ **Performance note**: Complex shadows can impact rendering speed—use `none` for optimal performance.  
 - **Spacing**: Internal padding in `px` (`0` = no padding).
 
-Hover Effects - Settings below when the mouse is hovering. 
+Animations on mouse over. 
+- **Background**: Card background—supports solid colors, gradients, or transparent values.  
 - **Shadow**: Enhanced or alternate shadow when the user hovers over the card.  
+- **Transform effect (X)**: Horizontal movement on hover (e.g., `+4px` lifts the card up; `-2px` pushes it down). 
 - **Transform effect (Y)**: Vertical movement on hover (e.g., `+4px` lifts the card up; `-2px` pushes it down).  
 - **Transform effect (scale)**: Zoom effect on hover (e.g., `105%` = slight enlargement; `95%` = subtle shrink).
+- **Card (scale)**: The overall scaling ratio of the entire card, e.g., (103%).
+- **Image (scale)**: The scaling ratio of the image inside the card, e.g., (100%).
 
 ---
 
-## 📋 4. Selector Style Schema
-
-Style for enhanced `<select>` dropdowns (powered by Nice Select2). The nice select2 effect is enabled for form select options. By default, it displays the Selector scheme. It is used for currency and language selectors, as well as country and province selections in address and shipping cost calculations. Simply set the style scheme number in the corresponding location.
-
-	![Selector Style Schema](/img/027.webp)
-
-- **Flag width**: Width of the country flag (SVG) in the selector or dropdown menu, in `px`.  
-- **Flag height**: Height of the country flag (SVG) in the selector or dropdown menu, in `px`.  
-- **Text size**: Font size of the selector text, expressed as a percentage relative to the root font size (e.g., `100%` = same as root).  
-- **Background**: Background of the selector—supports solid colors, gradients, or transparent values.  
-- **Border color**: Color of the selector’s outer border.  
-- **Text color**: Color of the displayed text inside the selector.  
-- **Search box border color**: Border color of the search input field (when search is enabled in the dropdown).  
-- **Focus background**: Background color when the selector is focused or opened.  
-- **Focus border color**: Border color when the selector is focused or opened.  
-- **Focus text color**: Text color when the selector is focused or opened.
-
----
-
-## 📥 5. Dropdown Style Schema
+## 📥 4. Dropdown Style Schema
 
 Generally for sub-level dropdown navigation or the dropdown menu that expands after a select option, select the style scheme number that corresponds in the options.
 
@@ -113,7 +98,7 @@ Generally for sub-level dropdown navigation or the dropdown menu that expands af
 
 ---
 
-## 🔗 6. Navbar Style Schema
+## 🔗 5. Navbar Style Schema
 
 Mainly used for the main navigation in the header position or the navigation style settings in other application navigation link blocks, select the style scheme number that corresponds in the options.
 
@@ -131,11 +116,11 @@ Mainly used for the main navigation in the header position or the navigation sty
 
 ---
 
-## 🗂️ 7. Mega Style Schema
+## 🗂️ 6. Mega Style Schema
 
 After enabling the Mega setting in the main navigation of the header, define the style scheme for the popped-out Mega menu by binding the style scheme number here.
 
-	![Mega Style Schema](/img/030.webp)
+	<img src={require('/img/030.webp').default} alt="Mega Style Schema settings" style={{ float: 'left', marginRight: '30px' }} />
 
 - **Background**: Background color of the entire Mega menu—supports solid colors or gradients.  
 - **Box shadow**: Drop shadow applied to the Mega menu for visual depth and separation from page content.  
@@ -150,10 +135,11 @@ After enabling the Mega setting in the main navigation of the header, define the
 - **Heading link hover color**: Text color of heading-level links on hover.  
 - **Heading link hover background**: Background color behind heading-level links on hover.  
 - **Nav-tabs border color**: Border color for the `nav-tabs` style when used inside the Mega menu (e.g., bottom border of active tab).
-
+- **Tabs/Pills radius**: The corner radius of the Tabs or Pills.
+<div style={{ clear: 'both' }} />
 ---
 
-## 💰 8. Price Style Schema
+## 💰 7. Price Style Schema
 
 Prices have different display requirements on product pages, collection pages, or shopping cart pages. You can bind the preset style scheme number here.
 
@@ -170,11 +156,11 @@ Prices have different display requirements on product pages, collection pages, o
 
 ---
 
-## ✏️ 9. Input Style Schema
+## ✏️ 8. Form style schema
 
 Or the style scheme for input box groups, commonly used in contact forms, login boxes, shipping cost calculations, address changes, and other situations that require input boxes. You can bind the preset style scheme number here.
 
-	![Input Style Schema](/img/032.webp)
+	![Form Style Schema](/img/032.webp)
 
 - **Background**: Background color of the input field.  
 - **Text color**: Color of the text inside the input field.  
@@ -182,12 +168,13 @@ Or the style scheme for input box groups, commonly used in contact forms, login 
 - **Border color**: Color of the input field’s border in its default state.  
 - **Box shadow**: Drop shadow applied to the input for depth or visual emphasis.  
 - **Focus background**: Background color when the input field is active (clicked or tabbed into).  
+- **Focus text color**: Text color when the input is focused.
 - **Focus border color**: Border color when the input is focused.  
 - **Focus box shadow**: Shadow effect displayed when the input is in focus (often used to highlight active fields).
 
 ---
 
-## 📊 10. Inventory Level Style Schema
+## 📊 9. Inventory Level Style Schema
 
 Used when displaying products with inventory levels enabled, the style displayed is bound to the style scheme number here.
 
@@ -208,47 +195,25 @@ Used when displaying products with inventory levels enabled, the style displayed
 
 ---
 
-## 🏷️ 11. Sales Status Style Schema
+## 🏷️ 10. Labels Style Schema
 
-Used to mark the display styles of Sale/Sold out/Pre-order on the main product image. In product pages or product list cards, bind the preset style scheme number here.
-	
-	![Sales Status Style Schema](/img/034.webp)
+Used to define the display styles for badges such as **New**, **Reduction**, **Hot**, **Sold Out**, **Pre-order**, **Refurbished**, **Tiered Pricing**, and **Bulk Order** on the main product image. Bind the preset style scheme number here for product pages or product list cards.
 
-- **Size**: Overall container size of the sales status badge (e.g., small, medium, large).  
-- **Position**: Placement of the badge on the product image. Options include:  
-  `Top left`, `Top center`, `Top right`, `Center`, `Bottom left`, `Bottom center`, `Bottom right`.  
-- **Text size**: Font size of the text inside the badge.  
-- **Text color**: Color of the text within the sales badge.  
-- **Rotate**: Rotation angle (in degrees) applied to the entire badge (e.g., `-15°` for a tilted “Sale” tag).  
-- **Sale background / text color**: Background and text colors used when the product is on **sale**.  
-- **Sold out background / text color**: Background and text colors displayed when the product is **sold out**.  
-- **Pre-order background / text color**: Background and text colors shown when the product is available for **pre-order**.
+![Sales Status Style Schema](/img/034.webp)
 
----
-
-## 🔍 12. Search Bar Style Schema
-
-The search bar is generally displayed at the top of the header and on the Search page. You can bind the preset style scheme number here separately.
-	
-	![Search Bar Style Schema](/img/035.webp)
-
-- **Background**: Background color of the entire search bar.  
-- **Border color**: Color of the search bar’s outer border.  
-- **Text color**: Color of the text entered or displayed in the search input field.  
-- **Size**: Overall size of the search bar—choose from `Small`, `Medium`, or `Large`.  
-- **Buttons**: Button display style:  
-  - `Separate`: Button is distinct from the input (background and color configurable)  
-  - `Inline`: Button appears inside the search field as an icon only (no background)  
-- **Button color**: Text or icon color of the search button.  
-- **Button background**: Background color of the search button (applies only when **Buttons** is set to `Separate`).  
-- **Focus background**: Background color when the search input is active (clicked or focused).  
-- **Focus border color**: Border color in the focused state.  
-- **Focus button color**: Button/icon color when the search bar is focused.  
-- **Focus button background**: Button background color in the focused state (for `Separate` style only).
+- **Text color**: Color of the text within the status badge.
+- **Hot sale background**: Background color displayed when the product is marked as **Hot Sale**.
+- **Sold out background**: Background color displayed when the product is **Sold Out**.
+- **Pre-order background**: Background color displayed when the product is available for **Pre-order**.
+- **Reduction background**: Background color displayed when the product has a **Price Reduction** (Discount).
+- **New arrival background**: Background color displayed when the product is a **New Arrival**.
+- **Refurbished background**: Background color displayed when the product is **Refurbished**.
+- **Tiered pricing background**: Background color displayed when the product supports **Tiered Pricing** (Volume discounts).
+- **Bulk order background**: Background color displayed when the product supports **Bulk Orders**.
 
 ---
 
-## 🏷️ 13. Tags Style Schema
+## 🏷️ 12. Tags Style Schema
 
 Used for article tags or other blocks that need to display multiple tag styles. You can bind the preset style scheme number here.
 	
@@ -274,7 +239,6 @@ Used for article tags or other blocks that need to display multiple tag styles. 
 	primary-lt, secondary-lt, success-lt, info-lt, warning-lt, danger-lt, light-lt, dark-lt, muted-lt, blue-lt, azure-lt, indigo-lt, purple-lt, pink-lt, red-lt, orange-lt, yellow-lt, lime-lt, green-lt, teal-lt, cyan-lt
 	```
   > 📌 The theme will cycle through these colors for consecutive tags.  
-- **Font weight**: Text thickness (e.g., `normal`, `bold`, `light`)
 
 > ✅ Ideal for dynamic tag clouds with varied visual emphasis.
 

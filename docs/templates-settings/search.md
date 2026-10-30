@@ -7,7 +7,7 @@ The **Search** section is the main container for the `main-search` template, use
 
 ## Settings
 
-### Layout & Results
+<img src={require('/img/242.webp').default} alt="Search settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Enable full width**: Expand the search page to 100% of the viewport width.  
 - **Section class**: Custom CSS class for the entire search section.  
 - **Number per page**: Maximum results displayed per page.  
@@ -17,20 +17,30 @@ The **Search** section is the main container for the `main-search` template, use
 - **Paging**:  
   - `Infinite scroll`: Load more products on scroll  
   - `Show buttons`: Traditional pagination with “Load more” or numbered links 
+<div style={{ clear: 'both' }} />
 
 ### Search Bar
-> ⚠️ **Note**: Full styling is managed in the **[Search bar](#top-bar)** child block.
 
+<img src={require('/img/243.webp').default} alt="Search Bar settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Width**: Set the width of the search input field (e.g., `100%`, `500px`).
+  > ⚠️ **Note**: Full styling is managed in the **[Search bar](#top-bar)** child block.
+<div style={{ clear: 'both' }} />
 
 ### Filters
-For detailed information on the main parameters of Filters, please refer to: **[Filters](#filters)**
+<img src={require('/img/244.webp').default} alt="Filters settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Enable filters**: Toggle the sidebar filter panel (powered by the **Filters** child block).
+  > ⚠️ **Note**: Main settings of Filters, please refer to: **[Filters](#filters)**
+<div style={{ clear: 'both' }} />
 
 ### Cards
-- **Per row on desktop**: Number of results per row on large screens.  
-- **Per row on mobile**: Number of results per row on mobile devices.  
+
+<img src={require('/img/245.webp').default} alt="Filters settings" style={{ float: 'left', marginRight: '30px' }} />
+
+- **Items per row (Desktop)**: Number of results per row on desktop large screens.  
+- **Items per row (Tablet)**: Number of results per row on tablet devices.  
+- **Items per row (Smartphone)**: Number of results per row on smartphone devices.  
 - **Enable masonry**: Allow variable-height result cards for dynamic layouts.
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -42,12 +52,12 @@ For detailed information on the main parameters of Filters, please refer to: **[
 
 ### Filters
 > Sidebar filtering panel for narrowing results by collection, price, tags, etc.  
-  Full settings: **[Blocks → Subblocks of Specific Block → Filters](/blocks/subblocks/filters)**.
+  Full settings: **[Blocks → Specific Block → Filters](/blocks/specific-block/filters)**.
 
 ### Product cards
 > Displays matching products with full customization (swatches, badges, pricing).  
-  Full settings: **[Blocks → Subblocks of Specific Block → Product Cards](/blocks/subblocks/product-cards)**.
+  Full settings: **[Blocks → Specific Block → Product Cards](/blocks/specific-block/product-cards)**.
 
 ### Blog posts cards
 > Shows relevant blog articles in the results (if “Search blog posts” is enabled in Shopify admin).  
-  Full settings: **[Blocks → Subblocks of Specific Block → Blog Posts Cards](/blocks/subblocks/blog-posts-cards)**.
+  Full settings: **[Blocks → Specific Block → Blog Posts Cards](/blocks/specific-block/blog-posts-cards)**.

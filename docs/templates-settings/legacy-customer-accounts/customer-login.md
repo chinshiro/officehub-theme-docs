@@ -26,7 +26,7 @@ The **Customer Login** section is the main container for the `main-login` templa
 - **Enable Sign in with Shop**: Show Shopify’s “Sign in with Shop” button for faster checkout (requires Shop app integration).
 
 ### Form Style
-- **Input style**: Styling for email/password fields from **[Theme Settings → Style scheme settings → Input Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-9-input-style-schema)**.  
+- **Form style**: Styling for email/password fields from **[Theme Settings → Style scheme settings → Form Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-8-form-style-schema)**.  
 - **Forgot password color schema**: Link color for “Forgot your password?” from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
 - **Icon lock color schema**: Color of the lock icon in the password field, from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.
 

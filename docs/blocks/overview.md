@@ -13,9 +13,10 @@ OfficeHub theme provides a set of universal block components that can be freely 
 
 The following settings are available in nearly every main block and section, allowing you to customize layout, spacing, and appearance uniformly.
 	
-	![General Block Settings](/img/038.webp)
+<img src={require('/img/038.webp').default} alt="General Settings" style={{ float: 'left', marginRight: '30px' }} />
 
 - **Enable full width**: Expands the block container to 100% of the viewport width (ignoring the site’s maximum content width). Ideal for full-bleed banners or backgrounds.  
+- **Enable spacing**: When activated, applies fixed vertical spacing padding above and below the section. Actual spacing values are managed in global theme settings — this toggle only enables/disables their application.
 - **Block class**: Adds custom CSS classes to the block container—commonly used for utility classes like spacing (`mt-4`, `pb-6`) or custom styling hooks.  
 	>Spacing utilities that apply to all breakpoints, from xs to xxl, have no breakpoint abbreviation in them. This is because those classes are applied from min-width: 0 and up, and thus are not bound by a media query. The remaining breakpoints, however, do include a breakpoint abbreviation.
 
@@ -51,6 +52,8 @@ The following settings are available in nearly every main block and section, all
 
 - **Background**: Sets a solid color or gradient background for the block container.  
 - **Or, use image**: Instead of a solid background, apply a predefined background image style from your **[Theme Settings → Style scheme settings → Background Image Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-2-background-image-schema)** (configured in Theme Settings). This option leverages your pre-saved image, repeat, position, and attachment settings for consistency.
+- **Enable background fixed**: When toggled on, the section’s background remains stationary while page content scrolls over it (parallax effect). If off, the background scrolls normally with the page.
+<div style={{ clear: 'both' }} />
 
 ### Animations on scroll
 
@@ -58,7 +61,7 @@ Scroll animations require the **AOS (Animate On Scroll)** library (`aos.js`) to 
 
 Once enabled, you can configure scroll animations on individual blocks using the following parameters:
 	
-	![Animations on scroll](/img/039.webp)
+<img src={require('/img/039.webp').default} alt="Animations on scroll settings" style={{ float: 'left', marginRight: '30px' }} />
 
 - **Animation**: The type of entrance effect. Options include:  
   `fade`, `fade-up`, `fade-down`, `fade-left`, `fade-right`,  
@@ -77,6 +80,7 @@ Once enabled, you can configure scroll animations on individual blocks using the
 
 - **Delay**: Time to wait before starting the animation after it’s triggered, in **milliseconds (ms)**.  
   Example: `200` = 0.2-second delay.
+<div style={{ clear: 'both' }} />
 
 ## Blocks category
 **Blocks** are the modular, reusable components that power your OfficeHub theme. They can be added to sections, nested within other blocks, or used to build complex layouts—all without writing code.
@@ -110,10 +114,10 @@ This section is organized into four categories to help you find the right block 
   width: '300px',
   boxShadow: 'var(--ifm-global-shadow-lw)'
 }}>
-  <h3>📄 Specific Page Block</h3>
+  <h3>📄 Specific Block</h3>
   <p>Blocks for native pages: List Collections, Blog Posts Lists, and more.</p>
   <Link 
-    to="/blocks/specific-page-block/article-body-text" 
+    to="/blocks/specific-block/article-body-text" 
     className="button button--primary button--lg"
     style={{ marginTop: '1rem' }}
   >
@@ -128,28 +132,10 @@ This section is organized into four categories to help you find the right block 
   width: '300px',
   boxShadow: 'var(--ifm-global-shadow-lw)'
 }}>
-  <h3>🔍 Subblocks of Specific Block</h3>
-  <p>Specialized child blocks: Product Cards, Cart Checkout, Filters, Variant Picker, and more.</p>
-  <Link 
-    to="/blocks/subblocks/page-top-banner" 
-    className="button button--primary button--lg"
-    style={{ marginTop: '1rem' }}
-  >
-    <span>Explore →</span>
-  </Link>
-</div>
-
-<div style={{ 
-  backgroundColor: 'var(--ifm-card-background-color)', 
-  padding: '1.5rem', 
-  borderRadius: 'var(--ifm-global-radius)', 
-  width: '300px',
-  boxShadow: 'var(--ifm-global-shadow-lw)'
-}}>
-  <h3>🧩 Composite Function Block</h3>
+  <h3>🧩 Function Block</h3>
   <p>Advanced features: Contact Form, FAQ Tabs, Discount Code, Pop Up, Custom Liquid, and more.</p>
   <Link 
-    to="/blocks/composite-function-block/3d-model-with-text" 
+    to="/blocks/function-block/3d-model-with-text" 
     className="button button--primary button--lg"
     style={{ marginTop: '1rem' }}
   >

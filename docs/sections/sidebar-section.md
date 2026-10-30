@@ -27,7 +27,7 @@ Inserts custom rich-text content (e.g., descriptions, calls to action).
 
 #### Contact Form  
 Embeds a functional contact form directly in the sidebar.  
-- Full configuration: **[Blocks → Composite Function Block → Contact Form](/blocks/composite-function-block/contact-form)**.
+- Full configuration: **[Blocks → Function Block → Contact Form](/blocks/basic-block/contact-form)**.
 
 #### Sidebar Article  
 Displays a list of recent blog posts.
@@ -46,7 +46,7 @@ Shows tags from a specific blog or the current article.
   - If **not set**: On blog post pages, displays tags from the current article only.  
   - If **set**: Shows all tags from the selected blog (visible on all pages).  
 - **Limit**: Max number of tags to display.  
-- **Style**: Tag styling from **Theme Settings → Style scheme settings → [Tags Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-13-tags-style-schema)**.  
+- **Style**: Tag styling from **Theme Settings → Style scheme settings → [Tags Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-12-tags-style-schema)**.  
 - **Hidden on mobile**: Hide on mobile.
 
 #### Sidebar Links  

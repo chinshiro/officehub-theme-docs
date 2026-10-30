@@ -18,7 +18,7 @@ The **Customer Activate Account** section is the main container for the `main-ac
 - **Width**: Form width as a percentage (e.g., `100%`, `60%`).  
 - **Alignment**: Horizontal alignment—`left`, `center`, or `right`.  
 - **Logo**: Optional logo displayed at the top of the form (overrides store logo if set).  
-- **Input style**: Styling for the password fields, from **[Theme Settings → Style scheme settings → Input Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-9-input-style-schema)**.  
+- **Form style**: Styling for the password fields, from **[Theme Settings → Style scheme settings → Form Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-8-form-style-schema)**.  
 - **Icon lock color**: Color of the lock icon (used to indicate secure password entry), selected from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.
 
 ---

@@ -8,9 +8,9 @@ The **General Section** is a fully flexible container that supports **any block*
 ## Multi-Column Layouts
 
 To create multi-column designs within this section:
-1. Add the **[Columns Layout](/blocks/composite-function-block/columns-layout)** block.
-2. Inside it, add one or more **[Column](/blocks/composite-function-block/columns-layout#child-block)** blocks.
+1. Add the **[Columns Layout](/blocks/function-block/columns-layout)** block.
+2. Inside it, add one or more **[Column](/blocks/function-block/columns-layout#child-block)** blocks.
 3. Within each **Column**, insert any combination of blocks (e.g., images, text, product cards, forms).
 
 For full configuration details—including column width, sticky behavior, and responsive alignment—see:  
-**[Blocks → Composite Function Block → Columns Layout](/blocks/composite-function-block/columns-layout)**
+**[Blocks → Function Block → Columns Layout](/blocks/function-block/columns-layout)**

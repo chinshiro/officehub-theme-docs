@@ -5,19 +5,25 @@ sidebar_position: 67
 
 Used to embed interactive 3D models for showcasing product details and appearance.
 
-## Main Parameters
+## Main Settings
 
+<img src={require('/img/082.webp').default} alt="3D Model settings" style={{ float: 'left', marginRight: '30px' }} />
 - **3D model URL**: The URL of the 3D model file. Shopify supports **GLB format**. Upload your model to **Shopify Admin → Content → Files**, then copy the file URL here.  
 - **Poster image**: A fallback image displayed before the model loads or on unsupported devices. Select from your Shopify media library or upload a new image.  
 - **Automatic play**: Enable to start model interaction (e.g., animation or rotation) automatically when the page loads.  
 - **Automatic rotation**: Enable continuous 360° rotation of the model.  
 - **Rotation speed**: Control rotation speed when auto-rotation is enabled. Higher values = faster rotation.
+<div style={{ clear: 'both' }} />
 
 ## Model Style
 
+<img src={require('/img/083.webp').default} alt="3D Model Style settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Background**: Background color of the 3D model container.  
 - **Radius**: Corner roundness of the container (e.g., `Rounded 1–5`, `Pill`, `Circle`).  
 - **Ratio (desktop)**: Aspect ratio of the model container on desktop (e.g., `1:1`, `16:9`, `3:4`). 
+- **Ratio (tablet)**: Aspect ratio of the model container on mobile devices.
+- **Ratio (smartphone)**: Aspect ratio of the model container on smartphone devices.
+The selectable ratios are:
 	- Custom (3:1) 
   - Ultrawide (21:9) 
   - Double-width (2:1)  
@@ -31,7 +37,8 @@ Used to embed interactive 3D models for showcasing product details and appearanc
   - Portrait (3:4)  
   - Pinterest Pin (2:3) 
   - Portrait (9:16) 
-- **Ratio (mobile)**: Aspect ratio of the model container on mobile devices.
+
+<div style={{ clear: 'both' }} />
 
 ## Animations on Scroll
 - Enable entrance animations as cards enter the viewport.  

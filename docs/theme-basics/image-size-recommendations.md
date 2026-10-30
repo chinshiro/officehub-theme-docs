@@ -21,7 +21,7 @@ When uploading images directly in the **OfficeHub Theme Editor** (e.g., banners,
 
 	![Recommended image size](/img/014.webp)
 
-> **Recommended size: 1920 × 960 px**
+> **Recommended size: 1920 × 800 px for desktop, 1000 x 800px for tablet, 540 x 960px for smartphone**
 
 These dimensions are optimized for **visual quality and performance**.  
 ✅ You may use other aspect ratios if needed for your brand—but **following the suggested sizes is the best starting point** for consistency and speed.

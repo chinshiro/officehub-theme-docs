@@ -9,9 +9,9 @@ The **Map Dealer Multi Store** section displays multiple store or dealer locatio
 
 This section combines two key components:
 
-1. **Store listing and search interface** – built using the **[Map Main Store](/blocks/composite-function-block/map-main-store)** block structure (for layout, columns, and styling).  
+1. **Store listing and search interface** – built using the **[Map Main Store](/blocks/function-block/map-main-store)** block structure (for layout, columns, and styling).  
 2. **Interactive multi-location map** – powered by the **[Dealer Multi Store Map](/blocks/basic-block/dealer-multi-store-map)** block (for map rendering, location pins, and search functionality).
 
 For full setup instructions:
-- Layout, alignment, and column settings: see **[Blocks → Composite Function Block → Map Main Store](/blocks/composite-function-block/map-main-store)**  
+- Layout, alignment, and column settings: see **[Blocks → Function Block → Map Main Store](/blocks/function-block/map-main-store)**  
 - Map-specific features (location pins, geocoding, search, clustering): see **[Blocks → Basic Block → Dealer Multi Store Map](/blocks/basic-block/dealer-multi-store-map)**

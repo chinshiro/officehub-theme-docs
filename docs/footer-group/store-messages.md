@@ -7,4 +7,4 @@ The **Store Messages** section displays persistent promotional or informational 
 
 All configuration options for this section are managed through its child block:
 
-- **Store Messages Block**: Full settings and customization options are available in **[Blocks → Composite Function Block → Store Messages](/blocks/composite-function-block/store-messages)**.
+- **Store Messages Block**: Full settings and customization options are available in **[Blocks → Function Block → Store Messages](/blocks/function-block/store-messages)**.

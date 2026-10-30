@@ -18,7 +18,7 @@ The **Customer Register** section is the main container for the `main-register` 
 - **Width**: Form width as a percentage (e.g., `100%`, `60%`).  
 - **Alignment**: Horizontal alignment—`left`, `center`, or `right`.  
 - **Logo**: Optional logo displayed at the top of the form (overrides store logo if set).  
-- **Input style**: Styling for all form fields (name, email, password), from **[Theme Settings → Style scheme settings → Input Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-9-input-style-schema)**.
+- **Form style**: Styling for all form fields (name, email, password), from **[Theme Settings → Style scheme settings → Form Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-8-form-style-schema)**.
 
 ---
 

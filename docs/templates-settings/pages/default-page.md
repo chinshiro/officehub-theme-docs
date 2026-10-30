@@ -11,9 +11,14 @@ The **Default Page** section is the main container for the `main-page` template,
 - **Main section class**: Custom CSS class for the entire page section (useful for spacing or custom styling).
 
 ### Breadcrumbs
-- **Position**: Placement relative to page content (e.g., below title or above body).  
-- **Link color schema**: Text color for breadcrumb links, selected from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
-- **Alignment**: Horizontal alignment—`left`, `center`, or `right`.
+<img src={require('/img/226.webp').default} alt="Breadcrumbs settings" style={{ float: 'left', marginRight: '30px' }} />
+- **Position**:  
+  - `Below page title`: Appears under the page’s main heading  
+  - `Above main content`: Shown just before product details  
+  - `Hide`: Disable breadcrumbs entirely  
+- **Link color schema**: Text color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
+- **Alignment**: Horizontal alignment (`left`, `center`, `right`).
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -21,8 +26,8 @@ The **Default Page** section is the main container for the `main-page` template,
 
 ### Page top banner
 > Controls the inner-page hero area (title, background image, overlay).  
-  Full settings: **[Blocks → Subblocks of Specific Block → Page Top Banner](/blocks/subblocks/page-top-banner)**.
+  Full settings: **[Blocks → Specific Block → Page Top Banner](/blocks/specific-block/page-top-banner)**.
 
 ### Page body text
 > Renders the main page content as authored in **Shopify Admin > Pages**.  
-  This block has no configurable settings—it automatically displays your page’s rich text, images, and embedded elements. See **[Blocks → Specific Page Block → Page Body Text](/blocks/specific-page-block/page-body-text)**.
+  This block has no configurable settings—it automatically displays your page’s rich text, images, and embedded elements. See **[Blocks → Specific Block → Page Body Text](/blocks/specific-block/page-body-text)**.

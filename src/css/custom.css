@@ -102,6 +102,15 @@ iframe[src*="tally.so"] {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+article ul>li>ul{
+  list-style-position: inside;
+  text-indent: 0.5em;
+}
+article ul>li>ul>li>ul{
+  list-style-position: inside;
+  text-indent: 2em;
+}
+
 /* ==============
    FOOTER
    ============== */

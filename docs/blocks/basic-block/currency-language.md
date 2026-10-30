@@ -7,6 +7,7 @@ sidebar_position: 72
 
 The Currency & Language block allows you to insert currency and language switchers anywhere on your page—ideal for localized shopping experiences.
 
+<img src={require('/img/093.webp').default} alt="Currency Language block settings" style={{ float: 'left', marginRight: '30px' }} />
 ## Country/Currency
 
 - **Enable country/currency selector**: Toggle visibility of the currency switcher.  
@@ -20,7 +21,7 @@ The Currency & Language block allows you to insert currency and language switche
 
 ## Selector Style
 
-- **Selector style**: Apply a predefined styling scheme for the main selector button.  
-  → Defined in **[Theme Settings → Style scheme settings → Selector Style Schema](/theme-settings/style-scheme-settings#-4-selector-style-schema)**.  
+- **Form style**: Apply a predefined styling scheme for the main selector button.  
+  → Defined in **[Theme Settings → Style scheme settings → Form Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-8-form-style-schema)**.  
 - **Dropdown style**: Apply a styling scheme for the dropdown menu that appears when the selector is opened.  
-  → Defined in **[Theme Settings → Style scheme settings → Dropdown Style Schema](/theme-settings/style-scheme-settings#-5-dropdown-style-schema)**.
+  → Defined in **[Theme Settings → Style scheme settings → Dropdown Style Schema](/theme-settings/style-scheme-settings#-4-dropdown-style-schema)**.

@@ -8,4 +8,4 @@ The **3D Model With Text** section is designed to showcase products using an int
 This section is ideal for highlighting product details in an immersive, engaging way—especially for complex or premium items where 3D visualization adds significant value.
 
 For full configuration options—including layout, overlay settings, child blocks, and 3D model controls—see:  
-**[Blocks → Composite Function Block → 3D Model With Text](/blocks/composite-function-block/3d-model-with-text)**
+**[Blocks → Function Block → 3D Model With Text](/blocks/function-block/3d-model-with-text)**

@@ -13,11 +13,13 @@ The **Basic Settings** panel in the OfficeHub theme allows you to configure glob
 
 Controls the foundational layout and typography scale.
 
+<img src={require('/img/settings-layout.webp').default} alt="Layout / Root settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Maximum page width**: Sets the max width (in pixels) of the responsive container. Content will center and stop expanding beyond this width on large screens.
 - **Root font size (desktop)**: Base font size for desktop (e.g., `16px`). All `rem`-based or percentage-based sizing in sections/blocks is calculated relative to this value.
 - **Root font size (mobile)**: Base font size for mobile devices.
 
 > ✅ **Example**: If root font size = `16px`, then `1.25rem` = `16px × 1.25` = `20px`.
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -25,10 +27,12 @@ Controls the foundational layout and typography scale.
 
 Upload your store’s logo for use in the header and footer.
 
+<img src={require('/img/settings-logos.webp').default} alt="logos settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Logo (dark)**: Primary logo (for light or neutral backgrounds).
 - **Logo (light)**: Alternate logo (for transparent or dark headers).
 
 > ✅ **Best Practice**: Use **SVG format** for crisp, scalable rendering on all devices. Avoid raster formats (JPG/PNG) unless necessary.
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -36,7 +40,9 @@ Upload your store’s logo for use in the header and footer.
 
 Sets the browser tab icon.
 
+<img src={require('/img/settings-favicon.webp').default} alt="Favicon settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Image**: Upload a **180×180px PNG** file for best compatibility across devices (including Apple Touch Icons).
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -44,6 +50,7 @@ Sets the browser tab icon.
 
 Define your store’s global color palette.
 
+<img src={require('/img/settings-colors.webp').default} alt="Colors settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Base text**: The default color for all body text across your store.
 - **Links**: The color of clickable text links.
 - **Links hover**: The color applied to links when a user hovers over them.
@@ -54,24 +61,28 @@ Define your store’s global color palette.
 - **Use gradient?**: Toggle to apply a gradient overlay on top of the background color.
 - **Background image**: Upload an image to use as the page background.
 - **Background repeat**: Control how the background image repeats—options include repeat, no-repeat, repeat-x, or repeat-y.
-
-### 📝 Form Elements
-- **Radio/Checkbox checked color**: The fill or accent color for selected radio buttons and checkboxes.
+<div style={{ clear: 'both' }} />
 
 ### 🌫️ Overlays
+
+<img src={require('/img/settings-colors-overlays.webp').default} alt="Colors Overlays settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Backdrop background**: The background color of modal or popup backdrops (e.g., when opening a cart or lightbox).
-- **Backdrop opacity**: The transparency level of the backdrop (e.g., `0.5` = 50% opaque).
+- **Backdrop blur**: Applies a Gaussian blur effect to the content behind the overlay for depth and focus enhancement.
+	- `0 px` = no blur  
+  - Higher values = stronger blur (may impact performance on low-end devices)
+<div style={{ clear: 'both' }} />
 
 ### 🎨 Color Variables
 A comprehensive set of predefined color variables used throughout sections and blocks:
 ```
 primary, secondary, success, info, warning, danger, light, dark, muted, blue, azure, indigo, purple, pink, red, orange, yellow, lime, green, teal, cyan, x, facebook, twitter, linkedin, google, youtube, vimeo, dribbble, github, instagram, pinterest, vk, rss, flickr, bitbucket, tabler, custom-color-1, custom-color-2, white, black, gray-950, gray-900, gray-800, gray-700, gray-600, gray-500, gray-400, gray-300, gray-200, gray-100, gray-50
 ```
-
+<img src={require('/img/settings-colors-variables.webp').default} alt="Colors variables settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Darken ratio**: Applies a darken effect to generate hover states (e.g., `primary-darken` for button hovers).
 - **Lighten ratio**: Applies a lighten effect for subtle backgrounds (e.g., `primary-lt` for badges).
 
 > ⚠️ **Note**: Grayscale colors (`white`, `black`, `gray-*`) are **not affected** by darken/lighten ratios.
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -80,20 +91,28 @@ primary, secondary, success, info, warning, danger, light, dark, muted, blue, az
 Customize fonts and text sizing.
 
 ### 🔤 Font Selection
-- **Headings**: Font for `<h1>`–`<h6>`
+
+<img src={require('/img/settings-typography.webp').default} alt="Typography settings" style={{ float: 'left', marginRight: '30px' }} />
+- **Headings**: Sets the font family for all heading elements (`<h1>`–`<h6>`). 
 - **Capitalize headings**: Toggle title-case for all headings
-- **Heading letter spacing**: Adjust tracking (as a percentage)
-- **Body text**: Main content font
-- **Buttons**: Button text font
-- **Bold mobile navigation**: Enable bold text in mobile menus
-- **Store name**: Font for store name (used when no logo is uploaded)
+- **Heading letter spacing**: Adjusts the spacing between characters in headings (CSS: `letter-spacing`).
+  - Negative values = tighter spacing  
+  - Positive values = looser spacing
+- **Body text**: Sets the font family for main body/content text (paragraphs, lists, etc.).
+- **Buttons**: Sets the font family for button labels and call-to-action elements.
+- **Bold mobile navigation**: When enabled, applies bold weight to mobile navigation menu items (CSS: `font-weight: 700` or theme-defined bold).
+- **Store name**: Sets the font family for the store name display (typically in header/logo area).
+	> ⚠️ **Note**:*If not using a logo image* – this font will be used as fallback typography for branding.
+<div style={{ clear: 'both' }} />
 
 ### 📏 Font Size Variables
 All sizes are **relative to the root font size** (see Section 1).
 
+<img src={require('/img/settings-typography-variables.webp').default} alt="Font Size Variables settings" style={{ float: 'left', marginRight: '30px' }} />
 - **`.h1` – `.h6`**: Bold heading sizes (for `<h1>`–`<h6>` or utility classes)
 - **`.fs-1` – `.fs-6`**: Regular-weight text sizes (for body content)
 - **`.display-1` – `.display-6`**: Large display text (for hero sections, banners)
+<div style={{ clear: 'both' }} />
 
 ---
 
@@ -101,6 +120,7 @@ All sizes are **relative to the root font size** (see Section 1).
 
 Configure cart behavior and appearance.
 
+<img src={require('/img/settings-cart.webp').default} alt="Cart settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Cart type**: Choose between `sidebar` or `page`
 - **After adding to cart**:
   - Show cart sidebar *(requires sidebar cart)*
@@ -108,8 +128,10 @@ Configure cart behavior and appearance.
   - Go to cart page (with quantity check)
   - Go to cart page (JS disabled)
 - **Show variant detail for single variant products**: Toggle display of variant info (e.g., color/size) even when only one variant exists
+<div style={{ clear: 'both' }} />
 
 ### Free Shipping Bar
+<img src={require('/img/settings-free-shipping-bar.webp').default} alt="Free Shipping Bar settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Show free shipping bar**: Enable progress bar toward free shipping
 - **Amounts**: Define thresholds using **smallest currency unit**  
   Example: `USD:5000` = $50.00 USD  
@@ -119,38 +141,83 @@ Configure cart behavior and appearance.
 	```
 - **Bar color - under**: Progress bar color before threshold
 - **Bar color - success**: Bar color after threshold is met
+<div style={{ clear: 'both' }} />
 
 ---
 
 ## 💰 7. Currency Format
 
+<img src={require('/img/settings-currency-format.webp').default} alt="Currency Format settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Show currency codes on product prices**: e.g., `$19.99 USD`
 - **Show currency codes on totals**: e.g., `Subtotal: $59.97 USD`
 
 > 📌 Note: Codes do **not** appear on itemized, unit, or installment prices.
+<div style={{ clear: 'both' }} />
 
 ---
 
-## 📱 8. Social Media
+## 8. 🧩 Filters
+When filters allow the display of vendor or brand, the following settings can be used to configure the icon.
+
+<img src={require('/img/settings-brand-icons.webp').default} alt="Filters brand list  settings" style={{ float: 'left', marginRight: '30px' }} />
+- **Vendor list**: Brand icon list, format: `BrandName:file path` 
+	```
+	Apple:vendor_apple.svg
+	3M:vendor_3m.svg
+	Brother:vendor_brother.svg
+	Dell:vendor_dell.svg
+	Epson:vendor_epson.svg
+	HP:vendor_hp.svg
+	KW-trio:vendor_kw-trio.webp
+	Logitech:vendor_logitech.svg
+	SDI:vendor_sdi.svg
+	ROG:https://cdn.shopify.com/s/files/1/0998/5864/5268/files/vendor_rog.webp.webp
+	```
+	>  ⚠️ Important:
+	> - Filenames must match exactly (case-sensitive on some servers).
+	> - If a brand has no matching icon file, it may fall back to text-only or default placeholder.
+	> - For optimal performance and scalability, prefer SVG format for vector logos.
+	> - WebP is supported for modern browsers; provide fallbacks if needed.
+<div style={{ clear: 'both' }} />
+
+---
+
+## 📱 9. Social Media
 
 Add links to your social profiles. Supported platforms:
+
+<img src={require('/img/settings-social-media.webp').default} alt="Social Media settings" style={{ float: 'left', marginRight: '30px' }} />
 - Facebook, X (Twitter), Instagram, LinkedIn, Pinterest, TikTok, WhatsApp  
 - YouTube, Vimeo, Tumblr, Twitch, Threads, Discord, Mastodon, Snapchat, Spotify, WeChat
 
 You can also **add one custom social link** with a custom icon.
+![custom social link](/img/settings-custom-icon.webp)
+<div style={{ clear: 'both' }} />
 
 ---
 
-## 🌍 9. Translation
+## 10. 🔍 Search
+Automatically recommend keywords based on input characters.
+
+<img src={require('/img/settings-search.webp').default} alt="search settings" style={{ float: 'left', marginRight: '30px' }} />
+- **Enable predictive search**: When enabled, the search bar will automatically recommend keywords or popular queries as the user types, based on input characters.
+<div style={{ clear: 'both' }} />
+
+---
+
+## 🌍 11. Translation
 
 Choose how your store handles multi-language support.
 
 ### 🌐 Translate Method
+<img src={require('/img/settings-translation.webp').default} alt="Translation settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Shopify**: Uses Shopify’s native translation system (manage via **Settings > Languages** in admin)
 - **Microsoft**: Uses Microsoft Translator API via `translate.js`
 - **Google**: Loads Google Translate widget from `translate.google.com`
+<div style={{ clear: 'both' }} />
 
 ### 🟦 Microsoft Translate Settings
+<img src={require('/img/settings-microsoft-translate.webp').default} alt="Microsoft Translate Settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Language options**: Enter one per line as `code:Name`  
   Example: `zh-CN:中文（简体）`  
   Supports 60+ languages (see full list in theme documentation)
@@ -270,8 +337,10 @@ Choose how your store handles multi-language support.
 	mi:Maori
   ```
 - **Automatically switch to local language**: Auto-detect browser language on load
+<div style={{ clear: 'both' }} />
 
 ### 🟨 Google Translate Settings
+<img src={require('/img/settings-google-translate.webp').default} alt="Google Translate Settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Language options**: Same format (`code:Name`)  
   Supports 100+ languages (including regional variants)
   ```
@@ -527,13 +596,14 @@ Choose how your store handles multi-language support.
   ```
 
 > 🔗 For full internationalization setup, see: [Multi-languages, Currencies and Internationalization](/theme-basics/multi-languages-currencies-internationalization)
+<div style={{ clear: 'both' }} />
 
 ---
 
-## 🎨 10. Swatches
+## 🎨 12. Swatches
 
 Customize how product variant options (like color) are displayed.
-
+<img src={require('/img/settings-swatches.webp').default} alt="Swatches settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Swatches source**:
   - `No`: Use default dropdowns
   - `Shopify`: Use Shopify metafields for color mapping
@@ -546,16 +616,32 @@ Customize how product variant options (like color) are displayed.
 - **Swatch color list**: One color per line in format `Name:#hex`  
   Example:
   ```
-  Red:#ff0000
-  Navy Blue:#000080
-  Red Blue Stripes:#e22#22e  (up to 3 colors for striped swatches)
+  White:#ffffff
+	Black:#000000
+	Silver:#d3d3d3
+	Purple:#9a56c9
+	Pink:#f6c3cc
+	Navy:#252693
+	Orange:#f08f35
+	Green:#4ca74c
+	Red:#e33b30
+	Blue:#205dcc
+	Gold:#cc9c36
+	Rose gold:#ad727a
+	Brown:#915938
+	Gray:#808080
+	Beige:#e7d8b0
+	Bronze:#c38242
+	Teal:#0ca678
   ```
 
 ---
 
-## ⚙️ 11. Advanced
+## ⚙️ 13. Advanced
 
+<img src={require('/img/settings-advanced.webp').default} alt="Advanced settings" style={{ float: 'left', marginRight: '30px' }} />
 - **Images - Image quality**: Choose `Standard`, `Higher`, or `Highest` (note: higher = slower load)
+- **Fixed Spacing (Responsive)**: These values likely control padding between major content blocks (e.g., sections, collections, banners) for responsive layouts.
 - **Animations - Enabled animate element on scroll**: Activates AOS (Animate On Scroll) for section/block animations
 - **Custom HTML - HTML for `<head>` tag**: Add meta tags, verification codes, or scripts  
   Example:
@@ -563,12 +649,14 @@ Customize how product variant options (like color) are displayed.
   <meta name="google-site-verification" content="your-code-here" />
   ```
   > ⚠️ **Warning**: Custom code can break your store. For help, hire a [Shopify Expert](https://www.shopify.com/experts).
+<div style={{ clear: 'both' }} />
 
 ---
 
 ## 🎨 12. Custom CSS
 
 Add global CSS rules that apply to your entire store.
-
+<img src={require('/img/settings-custom-css.webp').default} alt="Custom CSS settings" style={{ float: 'left', marginRight: '30px' }} />
 > ✅ Use this to override theme styles, add custom animations, or fine-tune spacing.  
 > 📌 Changes here affect **all pages**—test thoroughly.
+<div style={{ clear: 'both' }} />

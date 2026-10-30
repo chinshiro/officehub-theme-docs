@@ -11,6 +11,16 @@ Below is the complete list of available sections. Click any link to view detaile
 
 ---
 
+## 🏗️ Section Structure
+
+![Section Structure](/img/040.webp)
+
+All sections are composed of **Blocks** and their sub-blocks. Settings for adding or configuring these blocks are located within the specific settings panel of the added block.
+
+Generic sections allow you to freely add functional blocks to achieve fully detailed customization and layout arrangements.
+
+---
+
 ## 🧩 Available Sections
 
 - [**Featured Collection**](/sections/featured-collection)  
@@ -42,9 +52,6 @@ Below is the complete list of available sections. Click any link to view detaile
 
 - [**Blog Posts**](/sections/blog-posts)  
   Feature recent articles from any blog in a card-based grid.
-
-- [**Carousel**](/sections/carousel)  
-  Build custom slideshows with mixed content (image, video, 3D, text).
 
 - [**Contact Us**](/sections/contact-us)  
   Combine heading, text, and a contact form in one section.

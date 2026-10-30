@@ -9,9 +9,9 @@ The **Scrollspy Section** creates an interactive tabbed interface where:
 
 This is ideal for long-form pages (e.g., product details, FAQs, or landing pages) that benefit from in-page navigation.
 
-## Child Block: Tab / Scrollspy Pane
+## Child Block
 
-Each **Tab / Scrollspy Pane** represents a single tab and its associated content container.
+Each **Scrollspy pane** represents a single tab and its associated content container.
 
 ### Settings
 - **Name**: The label displayed in the tab navigation (e.g., “Specifications”, “Reviews”).  

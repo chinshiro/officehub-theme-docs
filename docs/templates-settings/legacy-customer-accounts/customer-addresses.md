@@ -16,4 +16,4 @@ The **Customer Addresses** section is the main container for the `main-addresses
 ### Account Card
 - **Card style**: Visual styling for the address form and list container (border, shadow, radius) from **[Theme Settings → Style scheme settings → Cards Style Schema](/theme-settings/style-scheme-settings#-3-cards-style-schema)**.  
 - **Width**: Card width as a percentage (e.g., `100%`, `80%`, `60%`).  
-- **Input style**: Styling for all address form fields (name, street, city, etc.), from **[Theme Settings → Style scheme settings → Input Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-9-input-style-schema)**.
+- **Form style**: Styling for all address form fields (name, street, city, etc.), from **[Theme Settings → Style scheme settings → Form Style Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-8-form-style-schema)**.
