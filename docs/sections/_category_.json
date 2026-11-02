@@ -1,0 +1,9 @@
+{
+  "label": "Sections",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Sections",
+    "description": "Every section and its settings, grouped by where it appears in the theme."
+  }
+}
