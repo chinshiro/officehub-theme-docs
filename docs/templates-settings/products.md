@@ -20,7 +20,7 @@ The **Products** section is the main container for the `main-product` template. 
   - `Below page title`: Appears under the page’s main heading  
   - `Above main content`: Shown just before product details  
   - `Hide`: Disable breadcrumbs entirely  
-- **Link color schema**: Text color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
+- **Link color schema**: Text color from **[Theme Settings → Basic Settings → Colors](/theme-settings#-4-colors)**.  
 - **Alignment**: Horizontal alignment (`left`, `center`, `right`).
 <div style={{ clear: 'both' }} />
 
@@ -45,12 +45,12 @@ A floating purchase prompt that appears after the user scrolls past the main pro
 - **Show on mobile**: Display on mobile devices.  
 - **Background**: The background color of the entire container supports gradient colors.
 - **Text color schema**: The color of the text inside the entire container.
-- **Link color schema**: Text/link color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
+- **Link color schema**: Text/link color from **[Theme Settings → Basic Settings → Colors](/theme-settings#-4-colors)**.  
 - **Behavior**:  
   - `Add to cart`: Immediately adds the selected variant to cart  
   - `Scroll`: Smoothly scrolls back to the main “Add to cart” button  
 - **Button style**: `Button` (solid) or `Outline` (hollow).  
-- **Button color schema**: Button color from **[Theme Settings → Basic Settings → Colors](/theme-settings/basic-settings#-4-colors)**.  
+- **Button color schema**: Button color from **[Theme Settings → Basic Settings → Colors](/theme-settings#-4-colors)**.  
 - **Enable gradient**: Customize the color of the button and support gradient colors.
 <div style={{ clear: 'both' }} />
 

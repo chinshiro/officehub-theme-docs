@@ -142,3 +142,18 @@ article ul>li>ul>li>ul{
     min-height: 500px;
   }
 }
+
+/* ==============
+   HOME (hero landing) — no left sidebar
+   ============== */
+/* 首页落地页：隐藏左侧文档侧栏与面包屑，主内容占满宽度，还原封面式布局。
+   通过 body:has(.hero-home) 仅在首页命中，其余文档页（overview 等）侧栏不受影响。 */
+body:has(.hero-home) .theme-doc-sidebar-container {
+  display: none !important;
+}
+body:has(.hero-home) .theme-doc-breadcrumbs {
+  display: none !important;
+}
+body:has(.hero-home) [class*="docMainContainer"] {
+  max-width: 100% !important;
+}

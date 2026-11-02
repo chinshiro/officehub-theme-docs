@@ -1,46 +1,36 @@
 ---
-title: Pop Up
-sidebar_position: 62
+title: "Pop-up"
+sidebar_position: 24
 ---
 
-# Pop Up
+# Pop-up
 
-The **Pop Up** section creates a modal dialog that appears automatically when a page loads. It’s ideal for capturing leads, promoting offers, announcing launches, or displaying important messages (e.g., age verification, shipping delays, or newsletter sign-ups).
+## Supported blocks
+
+These blocks can be added directly from the editor:
+
+- `@theme` — @theme
 
 ## Settings
-<img src={require('/img/074.webp').default} alt="Pop Up settings" style={{ float: 'left', marginRight: '30px' }} />
 
-- **Section class**: Custom CSS class for spacing or layout overrides.  
-- **Background**: Set a solid or gradient background color.  
-- **Or, use image**: Apply a background image using a preset from **[Theme Settings → Style scheme settings → Background Image Schema](/theme-settings/style-scheme-settings#%EF%B8%8F-2-background-image-schema)**. 
-- **Enable background fixed**: When enabled, the announcement bar background remains stationary while the page content scrolls over it (Parallax effect). If disabled, the background scrolls normally with the page.  
-- **Size**: Modal width—`small`, `default`, `large`, or `extra large`. 
-  > All four settings above follow: **[Blocks → Overview → General Settings](/blocks/overview#general-settings)** 
-<div style={{ clear: 'both' }} />
+| Setting | ID | Type | Default | Description |
+|---|---|---|---|---|
+| Accessible name | `aria_label` | text | Pop-up | Read by screen readers when the pop-up opens. |
+| Open automatically | `auto_open` | checkbox | true |  |
+| Open delay | `delay` | range | 3 |  |
+| Show only once per session | `once` | checkbox | true |  |
+| Size | `size` | select | md |  |
+| Radius | `radius` | select | rounded-md |  |
+| Background | `bg` | color_background | #ffffff | Supports solid or gradient colors. |
+| Panel class | `class` | text |  | Tailwind utilities for this panel. Space separated, e.g. mt-2 mb-4 px-6. Spacing scale: 0-10 plus 15 and 20 (1 = 0.25rem = 4px); responsive with md: / lg:, e.g. lg:px-20 lg:mt-10. |
 
-## Child Blocks
+### Option values
 
-You can include any combination of the following inside the pop-up modal:
+- **Size** (`size`): Small (`sm`), Medium (`md`), Large (`lg`), Extra large (`xl`)
+- **Radius** (`radius`): Square (`rounded-none`), Rounded small (`rounded-md`), Rounded medium (`rounded-xl`), Rounded large (`rounded-2xl`), Rounded extra large (`rounded-3xl`), Squircle (`rounded-squircle`), Circle (`rounded-circle`), Pill (`rounded-full`), Rounded top (`rounded-top`), Rounded bottom (`rounded-bottom`), Single corner (`rounded-corner`), Diagonal corners (`rounded-diagonal`), Arch (`rounded-arch`), Dome (`rounded-dome`), Cylinder (`rounded-cylinder`), Barrel (`rounded-barrel`), Leaf pointed (`rounded-leaf-point`), Leaf (`rounded-leaf`), Lens (`rounded-lens`), Petal (`rounded-petal`), Egg (`rounded-egg`), Egg inverted (`rounded-egg-inverted`), Shield (`rounded-shield`), Drop (`rounded-drop`), Diamond (`rounded-diamond`), Blob (`rounded-blob`), Amoeba (`rounded-amoeba`), Flower (`rounded-flower`), Mountain (`rounded-mountain`), Pebble (`rounded-pebble`), Bean (`rounded-bean`), Cloud (`rounded-cloud`)
 
-<img src={require('/img/075.webp').default} alt="Pop Up Child Blocks settings" style={{ float: 'left', marginRight: '30px' }} />
-### Heading
-> Modal title (e.g., “Get 10% Off Your First Order”). Settings follow **[Blocks → Basic Block → Heading](/blocks/basic-block/heading)**.  
-### Text
-> Supporting message or terms. Settings follow **[Blocks → Basic Block → Text](/blocks/basic-block/text)**. 
-### Button
-> Primary action (e.g., “Close” or “Submit”). Settings follow **[Blocks → Basic Block → Button](/blocks/basic-block/button)**. 
-### Newsletter form
-> Email subscription input with Shopify integration. Settings follow **[Blocks → Basic Block → Newsletter form](/blocks/basic-block/newsletter-form)**.  
-### Contact form
-> Full contact form for inquiries (see **[Blocks → Basic Block → Contact Form](/blocks/basic-block/contact-form)**).  
-### Countdown timer
-> Urgency-driven timer for flash sales.  Settings follow **[Blocks → Basic Block → Countdown timer](/blocks/basic-block/countdown-timer)**.  
-### Video
-> Embedded or self-hosted video content.   Settings follow **[Blocks → Basic Block → Video](/blocks/basic-block/video)**. 
-### Image
-> Static promotional or product image.  Settings follow **[Blocks → Basic Block → Image](/blocks/basic-block/image)**.
-### 3D model
-> Interactive product visualization.  Settings follow **[Blocks → Basic Block → 3D model](/blocks/basic-block/3d-model)**. 
+## Presets
 
-> 🌟 **Tip**: Use pop-ups sparingly and always include a clear close button to avoid frustrating users. For best results, trigger them after a short delay or on exit intent.
-<div style={{ clear: 'both' }} />
+- Pop-up
+
+> 💡 Edit via **Shopify Admin → Online Store → Themes → Customize**.

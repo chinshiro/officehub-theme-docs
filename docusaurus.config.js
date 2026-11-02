@@ -1,10 +1,21 @@
 module.exports = {
-  title: 'OfficeHub Theme Documentation',
-  tagline: 'Professional Shopify theme for modern stores',
-  url: 'https://officehub.chinshiro.com',
+  title: 'Zephyr Theme Documentation',
+  tagline: 'Performance-first Shopify theme, built on Tailwind CSS',
+  url: 'https://docs.chinshiro.com',
   baseUrl: '/',
   organizationName: 'chinshiro',
-  projectName: 'officeHub-theme-docs',
+  projectName: 'officehub-theme-docs',
+  trailingSlash: false,
+
+  // The docs contain Shopify admin/editor deep-links (e.g. /admin/settings/files,
+  // /editor?context=theme&category=…) that intentionally point outside this site.
+  // Treat those — and any other unresolvable link — as warnings, not build failures.
+  onBrokenLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   presets: [
     [
@@ -37,7 +48,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'OfficeHub Theme',
+      title: 'Zephyr Theme',
       items: [
         {
           type: 'doc',
@@ -59,7 +70,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} OfficeHub Theme`,
+      copyright: `© ${new Date().getFullYear()} Zephyr Theme`,
     },
     docs: {
       sidebar: {

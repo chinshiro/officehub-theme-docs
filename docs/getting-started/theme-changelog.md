@@ -5,10 +5,38 @@ sidebar_position: 6
 
 # Theme Changelog
 
-This document outlines the release history, new features, improvements, and bug fixes for the **OfficeHub** Shopify theme.  
+This document outlines the release history, new features, improvements, and bug fixes for the **Zephyr** Shopify theme.  
 We recommend keeping your theme up to date to benefit from the latest enhancements and security updates.
 
 > 💡 **Tip**: To update your theme, download the latest version from the [Shopify Theme Store](https://themes.shopify.com) and follow Shopify’s [theme update guide](https://help.shopify.com/en/manual/online-store/themes/theme-versions).
+
+---
+
+## [1.1] – 2026-10-31 15:21
+
+### 🆕 New features
+
+- **Discount code block** rebuilt: optional artwork background with three fit modes (**Cover / Stretch / 9-slice**). 9-slice keeps ticket-style cut-outs and decorative corners sharp at any card size; overlay color + opacity keep text readable on busy artwork.
+- **Discount code badges**: Badge or **Side panel** style, left/right panel position, full 32-shape library, independent badge color with automatic text contrast.
+- **Discount code — independent code color**: the code chip no longer has to inherit the body text color; pick any theme token or a custom color and the chip border/fill follows automatically.
+- **Discount code — Copy button**: Solid / Outline / Ghost / Icon only variants, full 15-step type scale (`text-3xs` → `text-9xl`), 32-shape library, icon picker and icon size. Clicking the code itself also copies it.
+- **Newsletter form**: choose **Separated** or **Inline** layout (inline pins the button to the right inner edge of the field). Input border style / width / color, focus border color and disabled border color, plus independent input and button shapes.
+- **Newsletter form — Form width** now applies to the input **and** button as one group, and honours the alignment setting in both layouts.
+- **Newsletter form — button**: simplified to Solid / Outline / Ghost / Icon only, with automatic black/white label contrast based on the chosen fill.
+- **Stars block**: renders through the shared reviews snippet, full text palette, rem-based star size and always-on grey empty stars.
+- **Pop-up section**: Radius now exposes the full 32-shape library (squircle, drop, diamond, cloud …).
+- **Docs**: private blocks (`_` prefix, placed automatically by their parent) are now documented inside the pages of the blocks/sections that use them instead of being listed as standalone Blocks entries; `main-*` page sections are documented on their matching **Templates** page.
+
+### 🔄 Renames & removed settings
+
+- Newsletter form: `input_width` → **`form_width`** (“Form width”). Removed `button_shadow`, `button_width`, `button_border_color` and the whole **Focus outline** group (focus now uses the browser default outline plus the input focus border color).
+- Discount code: `show_ctrlc` → **`copy_on_code`**, `discount_amount` → **`discount_rate`** (Badge text, free-form). Removed `card_media_zoom`, `rate_bg`, `rate_width`, `text_size`, `form_style`, `button_shadow`, `button_width`, `button_icon_position`.
+- Stars: removed the `show_empty` toggle — grey empty stars are always rendered.
+
+### 🐛 Fixes
+
+- Discount badge / side panel no longer turns transparent for colors such as Gray 300 / 500 / 600 / 700.
+- Discount code color (including **White**) now actually applies instead of falling back to the inherited text color.
 
 ---
 
@@ -16,7 +44,7 @@ We recommend keeping your theme up to date to benefit from the latest enhancemen
 
 ### 🎉 Initial Release
 - Fully responsive design with mobile-first approach.
-- Built on **Tabler 1.3**, which is based on **Bootstrap 5.3** — as a result, OfficeHub’s initial CSS foundation corresponds to **Bootstrap 5.0+** standards.
+- Built on **Tabler 1.3**, which is based on **Bootstrap 5.3** — as a result, Zephyr’s initial CSS foundation corresponds to **Bootstrap 5.0+** standards.
 - Supports Shopify 2.0 theme architecture (sections everywhere).
 - Built-in accessibility features (keyboard navigation, screen reader support).
 - Optimized for Core Web Vitals and SEO.

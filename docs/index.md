@@ -1,15 +1,15 @@
 ---
-title: OfficeHub Theme Documentation
-description: Professional Shopify theme for modern stores
+title: Zephyr Theme Documentation
+description: Performance-first Shopify theme built on Tailwind CSS
 slug: /
 hide_table_of_contents: true
 ---
 
 import Link from '@docusaurus/Link';
 
-# <span style={{textAlign: 'center', display: 'block'}}>OfficeHub Theme Documentation</span>
+# <span style={{textAlign: 'center', display: 'block'}}>Zephyr Theme Documentation</span>
 
-<div style={{textAlign: 'center'}}>A modern, high-performance Shopify theme designed for office supplies, furniture, and workspace solutions. Built for speed, customization, and conversion — perfect for brands that want to inspire productivity, organization, and style.</div>
+<div className="hero-home" style={{textAlign: 'center'}}>A modern, high-performance Shopify theme engineered for office supplies, furniture, and workspace solutions. Built for speed, customization, and conversion — perfect for brands that want to stand out professionally, impressively, and reliably.</div>
 
 ## <div style={{textAlign: 'center', marginTop: '2rem'}}>🚀 Get Started</div>
 
@@ -23,7 +23,7 @@ import Link from '@docusaurus/Link';
   boxShadow: 'var(--ifm-global-shadow-lw)'
 }}>
   <h3>📖 Read Documentation</h3>
-  <p>Learn install, configure, and customize your OfficeHub theme.</p>
+  <p>Learn install, configure, and customize your Zephyr theme.</p>
   <Link 
     to="/getting-started/overview" 
     className="button button--primary button--lg"
@@ -43,7 +43,7 @@ import Link from '@docusaurus/Link';
   <h3>🛠️ Customize Your Store</h3>
   <p>Explore theme settings and style scheme customization.</p>
   <Link 
-    to="/theme-settings/basic-settings" 
+    to="/theme-settings" 
     className="button button--primary button--lg"
     style={{ marginTop: '1rem' }}
   >
@@ -122,10 +122,10 @@ import Link from '@docusaurus/Link';
 
     ---
 
-    ## 🚀 Why Choose OfficeLab?
+    ## 🚀 Why Choose Zephyr?
     > _"Crafted to Your Vision. Designed for Purpose. Built to Inspire."_  
 
-    OfficeLab combines **performance, flexibility, and visual storytelling** to help you create a compelling online presence that converts visitors into loyal customers.
+    Zephyr combines **performance, flexibility, and visual storytelling** to help you create a compelling online presence that converts visitors into loyal customers.
 
     ✅ Lightning-fast loading  
     ✅ Fully customizable layout  
@@ -135,7 +135,7 @@ import Link from '@docusaurus/Link';
 
     ---
 
-    👉 **Get Started Today** – Build your dream office store with OfficeLab.
+    👉 **Get Started Today** – Build your dream store with Zephyr.
   </div>
 </div>
 

@@ -9,9 +9,9 @@ import Link from '@docusaurus/Link';
 
 # <span style={{textAlign: 'center', display: 'block'}}>Overview</span>
 
-Thank you for choosing **OfficeHub**—a powerful, flexible, and performance-optimized Shopify theme designed for modern e-commerce brands. This documentation will help you set up, customize, and scale your store with confidence.
+Thank you for choosing **Zephyr**—a powerful, flexible, and performance-optimized Shopify theme designed for modern e-commerce brands. This documentation will help you set up, customize, and scale your store with confidence.
 
-Whether you're launching your first product or managing a global catalog, OfficeHub gives you the tools to create a fast, beautiful, and conversion-focused shopping experience—**without writing a single line of code**.
+Whether you're launching your first product or managing a global catalog, Zephyr gives you the tools to create a fast, beautiful, and conversion-focused shopping experience—**without writing a single line of code**.
 
 - **[Support Policy](/getting-started/support-policy)**
 - **[Browser Support](/getting-started/browser-support)**
@@ -51,7 +51,7 @@ Whether you're launching your first product or managing a global catalog, Office
   <h3>⚙️ Theme Settings</h3>
   <p>Configure colors, typography, layout, and global style schemes.</p>
   <Link 
-    to="/theme-settings/basic-settings" 
+    to="/theme-settings" 
     className="button button--primary button--lg"
     style={{ marginTop: '1rem' }}
   >

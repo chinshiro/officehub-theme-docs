@@ -1,16 +1,30 @@
 ---
-title: General Section
-sidebar_position: 45
+title: "General section"
+sidebar_position: 28
 ---
 
-The **General Section** is a fully flexible container that supports **any block** available in the OfficeHub theme. It’s ideal for building custom layouts, combining content types, or prototyping unique page sections without structural constraints.
+# General section
 
-## Multi-Column Layouts
+## Supported blocks
 
-To create multi-column designs within this section:
-1. Add the **[Columns Layout](/blocks/function-block/columns-layout)** block.
-2. Inside it, add one or more **[Column](/blocks/function-block/columns-layout#child-block)** blocks.
-3. Within each **Column**, insert any combination of blocks (e.g., images, text, product cards, forms).
+These blocks can be added directly from the editor:
 
-For full configuration details—including column width, sticky behavior, and responsive alignment—see:  
-**[Blocks → Function Block → Columns Layout](/blocks/function-block/columns-layout)**
+- `@theme` — @theme
+- `@app` — @app
+
+## Settings
+
+| Setting | ID | Type | Default | Description |
+|---|---|---|---|---|
+| Full width | `full_width` | checkbox | true |  |
+| Enable inner spacing | `enable_spacing` | checkbox | false |  |
+| Section class | `class` | text |  | Tailwind utilities for this section. Space separated, e.g. mt-2 mb-4 px-6. Spacing scale: 0-10 plus 15 and 20 (1 = 0.25rem = 4px); responsive with md: / lg:, e.g. lg:px-20 lg:mt-10. |
+| Background | `bg` | color_background |  | Supports solid or gradient colors. |
+| Use theme background schema | `bg_schema` | checkbox | false |  |
+| Fixed background | `bg_attachment` | checkbox | false |  |
+
+## Presets
+
+- General section
+
+> 💡 Edit via **Shopify Admin → Online Store → Themes → Customize**.

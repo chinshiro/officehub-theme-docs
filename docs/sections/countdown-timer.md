@@ -1,38 +1,66 @@
 ---
-title: Countdown Timer
-sidebar_position: 43
+title: "Countdown timer"
+sidebar_position: 6
 ---
 
-The **Countdown Timer** section creates a high-impact promotional section that combines rich media with urgency-driven content—ideal for flash sales, product launches, or limited-time offers. It features a columns layout: one for visual media and one for text-based calls to action.
+# Countdown timer
 
-## Columns Layout
-	> Column Layout Setting Reference: **[Blocks → Function Block → Columns Layout](/blocks/function-block/columns-layout)**
+## Supported blocks
 
-## Child block
+Private blocks (file names start with `_`) cannot be added by hand — the section or parent block places them automatically. Their settings are documented right here:
 
-The block is divided into two responsive columns:
+- `_column` — Column
 
-### Media Column  
-Display engaging visual content on one side, Setting Reference: **[Blocks → Specific Block → Columns](/blocks/specific-block/column)**
+### `_column` — Column
 
-#### Image
-> Static product or lifestyle image. Settings follow **[Blocks → Basic Block → Stars](/blocks/basic-block/stars)**
-#### Video
-> Embedded or self-hosted video (e.g., MP4, YouTube).  Settings follow **[Blocks → Basic Block → Video](/blocks/basic-block/video)**.  
-#### 3D model
-> Interactive GLB/GLTF model for immersive product viewing. Settings follow **[Blocks → Basic Block → 3D Model](/blocks/basic-block/3d-model)**. 
+#### Settings
 
-### Text Column  
-Drive action with time-sensitive messaging, Setting Reference: **[Blocks → Specific Block → Columns](/blocks/specific-block/column)**
-#### Heading
-> Promotional headline (e.g., “Flash Sale Ends Soon!”).  Settings follow **[Blocks → Basic Block → Heading](/blocks/basic-block/heading)**. 
-#### Text
-> Supporting description or terms.  Settings follow **[Blocks → Basic Block → Text](/blocks/basic-block/text)**. 
-#### Button
-> Primary call-to-action (e.g., “Shop Now”).  Settings follow **[Blocks → Basic Block → Button](/blocks/basic-block/button)**. 
-#### Discount code
-> Display and allow copying of a promo code.  Settings follow **[Blocks → Basic Block → Discount code](/blocks/basic-block/discount-code)**. 
-#### Countdown Timer
-> Dynamic countdown to a target date/time (e.g., “02:18:45”). Settings follow **[Blocks → Basic Block → Countdown Timer](/blocks/basic-block/countdown-timer)**. 
+| Setting | ID | Type | Default | Description |
+|---|---|---|---|---|
+| Block class | `class` | text |  |  |
+| Column width (mobile) | `column_width_mob` | range | 100 |  |
+| Column width (desktop) | `column_width` | range | 50 |  |
+| Sticky on desktop | `sticky` | checkbox | false |  |
+| Overflow hidden | `overflow_hidden` | checkbox | false |  |
+| Z-index | `zindex` | number | 0 |  |
+| Background | `bg` | color_background |  | Solid color or gradient. Leave empty for transparent. |
+| Child element display | `sub_display` | select |  |  |
+| Display direction | `sub_display_dir` | select |  | When child element display is flex. |
+| Horizontal alignment | `sub_alignment` | select |  | Applies when child element display is flex. |
+| Vertical alignment | `sub_valignment` | select |  | Applies when child element display is flex. |
 
-💡 **Tip**: Use this block above the fold on your homepage or in email campaign landing pages to maximize conversion during time-limited promotions.
+##### Option values
+
+- **Child element display** (`sub_display`): no set (``), block (`block`), inline-block (`inline-block`), flex (`flex`), inline-flex (`inline-flex`)
+- **Display direction** (`sub_display_dir`): no set (``), row (`flex-row`), column (`flex-col`)
+- **Horizontal alignment** (`sub_alignment`): no set (``), Start (`justify-start`), Center (`justify-center`), End (`justify-end`), Space between (`justify-between`)
+- **Vertical alignment** (`sub_valignment`): no set (``), Start (`items-start`), Center (`items-center`), End (`items-end`), Stretch (`items-stretch`)
+
+#### Blocks inside Column
+
+- `@app`
+- `@theme`
+
+## Settings
+
+| Setting | ID | Type | Default | Description |
+|---|---|---|---|---|
+| Block class | `class` | text |  |  |
+| Enable full width | `full_width` | checkbox | false |  |
+| Enable spacing | `enable_spacing` | checkbox | true |  |
+| Background | `bg` | color_background |  | Solid color or gradient. Leave empty for transparent. |
+| Horizontal | `alignment` | select | start |  |
+| Vertical | `valignment` | select | start |  |
+| Column gap (desktop) | `gap` | range | 4 |  |
+| Column gap (mobile) | `gap_mob` | range | 2 |  |
+
+### Option values
+
+- **Horizontal** (`alignment`): Left (`start`), Center (`center`), Right (`end`), Between (`between`)
+- **Vertical** (`valignment`): Top (`start`), Middle (`center`), Bottom (`end`), Stretch (`stretch`)
+
+## Presets
+
+- Countdown timer
+
+> 💡 Edit via **Shopify Admin → Online Store → Themes → Customize**.

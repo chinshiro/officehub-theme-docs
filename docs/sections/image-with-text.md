@@ -1,9 +1,57 @@
 ---
-title: Image With Text
-sidebar_position: 34
+title: "Image with text"
+sidebar_position: 18
 ---
 
-The **Image With Text** section combines a visual image with descriptive content—including a heading, rich text, and optional call-to-action button. It supports flexible layouts such as text on the left/right or overlaid directly on the image with customizable opacity, making it ideal for feature highlights, promotional banners, or storytelling.
+# Image with text
 
-For full configuration details—including layout options, overlay settings, image styling, and child block controls—see:  
-**[Blocks → Function Block → Image With Text](/blocks/function-block/image-with-text)**
+## Supported blocks
+
+These blocks can be added directly from the editor:
+
+- [Heading](/blocks/heading) — `heading`
+- [Text](/blocks/text) — `text`
+- [Button](/blocks/button) — `button`
+- [Badge](/blocks/badge) — `badge`
+- [Stars](/blocks/stars) — `stars`
+- [Steps](/blocks/steps) — `steps`
+- [Countdown timer](/blocks/countdown-timer) — `countdown-timer`
+- [Discount code](/blocks/discount-code) — `discount-code`
+- [Newsletter form](/blocks/newsletter-form) — `newsletter-form`
+- [Payment icons](/blocks/payment-icons) — `payment-icons`
+- [Columns](/blocks/columns) — `columns`
+- [Image](/blocks/image) — `image`
+
+## Settings
+
+| Setting | ID | Type | Default | Description |
+|---|---|---|---|---|
+| Full width | `full_width` | checkbox | false |  |
+| Enable inner spacing | `enable_spacing` | checkbox | true |  |
+| Block class | `class` | text | py-4 lg:py-6 |  |
+| Background | `bg` | color_background |  | Supports solid or gradient colors. |
+| Use theme background schema | `bg_schema` | checkbox | false |  |
+| Fixed background | `bg_attachment` | checkbox | false |  |
+| Layout | `layout` | select | text-right |  |
+| Image width (desktop) | `image_width` | select | lg:w-1/2 |  |
+| Gap (desktop) | `gap` | range | 4 | Spacing scale, 1 = 0.25rem (4px). gap only supports 0-10. |
+| Gap (mobile) | `gap_mob` | range | 2 | Spacing scale, 1 = 0.25rem (4px). gap only supports 0-10. |
+| Style | `overlay_style` | select | full |  |
+| Overlay background | `overlay_bg` | color_background | linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 100%) | Applied to the whole overlay (Tint) or to the text box (Box). Supports solid or gradient colors. |
+| Content position | `overlay_align` | select | items-end justify-start |  |
+| Text width | `text_width` | range | 45 | Width of the text area inside the overlay, as a percentage. |
+| Overlay radius | `radius` | select | rounded-md |  |
+
+### Option values
+
+- **Layout** (`layout`): Text left (`text-left`), Text right (`text-right`), Text above (`text-above`), Text below (`text-below`), Text overlay image (`overlay`)
+- **Image width (desktop)** (`image_width`): 40% (`lg:w-2/5`), 50% (`lg:w-1/2`), 60% (`lg:w-3/5`)
+- **Style** (`overlay_style`): Tint (`full`), Box (`box`), Text shadow (`shadow`), Text shadow and tint (`full shadow`), No overlay background (`none`)
+- **Content position** (`overlay_align`): Top left (`items-start justify-start`), Top center (`items-start justify-center`), Top right (`items-start justify-end`), Center left (`items-center justify-start`), Center (`items-center justify-center`), Center right (`items-center justify-end`), Bottom left (`items-end justify-start`), Bottom center (`items-end justify-center`), Bottom right (`items-end justify-end`)
+- **Overlay radius** (`radius`): Square (`rounded-none`), Rounded small (`rounded-md`), Rounded medium (`rounded-xl`), Rounded large (`rounded-2xl`), Rounded extra large (`rounded-3xl`), Squircle (`rounded-squircle`), Circle (`rounded-circle`), Pill (`rounded-full`), Rounded top (`rounded-top`), Rounded bottom (`rounded-bottom`), Single corner (`rounded-corner`), Diagonal corners (`rounded-diagonal`), Arch (`rounded-arch`), Dome (`rounded-dome`), Cylinder (`rounded-cylinder`), Barrel (`rounded-barrel`), Leaf pointed (`rounded-leaf-point`), Leaf (`rounded-leaf`), Lens (`rounded-lens`), Petal (`rounded-petal`), Egg (`rounded-egg`), Egg inverted (`rounded-egg-inverted`), Shield (`rounded-shield`), Drop (`rounded-drop`), Diamond (`rounded-diamond`), Blob (`rounded-blob`), Amoeba (`rounded-amoeba`), Flower (`rounded-flower`), Mountain (`rounded-mountain`), Pebble (`rounded-pebble`), Bean (`rounded-bean`), Cloud (`rounded-cloud`)
+
+## Presets
+
+- Image with text
+
+> 💡 Edit via **Shopify Admin → Online Store → Themes → Customize**.
